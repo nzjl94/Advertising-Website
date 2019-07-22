@@ -1,5 +1,5 @@
 <template>
-    <i :class="[iconType,'fa-'+iconName,'fa-'+iconSize,iconClass]" :style="iconStyle"></i>
+    <i :class="[extraClass,iconType,'fa-'+iconName,'fa-'+iconSize,iconClass]" :style="iconStyle"></i>
 </template>
 <script>
     export default {
@@ -8,7 +8,8 @@
             iconName: {type: String,default:"camera"},
             iconSize: {type: String,default:"2x"},
             iconStyle: {type: String,default:"color:black;"},
-            iconClass: {type: String,default:"circle-icon"}
+            iconClass: {type: String,default:"circle-icon"},
+            extraClass: {type: String,default:""},
         }
     }
 </script>
@@ -19,6 +20,24 @@
         border-radius: 50%;
         text-align: center;
         line-height: 50px;
+        vertical-align: middle; 
+        border: solid 3px black;
+   }
+   .circle-icon-small {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 25px;
+        vertical-align: middle; 
+        border: solid 3px black;
+   }
+   .circle-icon-large {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 120px;
         vertical-align: middle; 
         border: solid 3px black;
    }

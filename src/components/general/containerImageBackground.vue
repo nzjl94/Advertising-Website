@@ -1,16 +1,11 @@
 <template>
-  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0 m-0">
-        <b-jumbotron :style="jumbotron">
-            <h2 class="text-white text-center display-4 font-weight-bold">{{mHeader}}</h2>
-            <h5 class="text-white text-center font-weight-bolder">{{sHeader}}</h5>
-        </b-jumbotron>
+  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" :style="jumbotron">
+       <slot></slot>
   </div>
 </template>
 <script>
     export default {
         props: {
-            mHeader: {type: String,default:"Our Clients"},
-            sHeader: {type: String,default:"We do Best, We made them happy!"},
             opacity: {type: String,default:"0.7"},
             height: {type: String,default:"230px"},
             imgUrL: {type: String,default:"print/1.png"}
