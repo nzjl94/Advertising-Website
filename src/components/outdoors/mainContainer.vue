@@ -164,12 +164,35 @@
             </div>
         </div>
         <div class="row">
-          <containerCB>
-            <h1 class="text-center text-white">OUR MISSION</h1>
-            <img src="../../assets/logo1.png" class="" height="150px">
+          <containerCB background="white">
+            <h1 class="text-center" style="color:#c1272d;">OUR MISSION</h1>
+            <img src="../../assets/image/home/8.png" class="mx-auto d-block">
+            <h2 class="text-center py-3" style="color:#c1272d;">WE ARE,</h2>
+            <p class="text-center">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to make a type 
+              specimen book. It has survived not only five centuries, but also the leap into 
+              electronic typesetting, remaining essentially unchanged. It was popularised in 
+              the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+              and more recently with desktop publishing software like Aldus PageMaker including
+              versions of Lorem Ipsum.
+            </p>
           </containerCB>
-          <containerCB >
-            <h1>Hello World2</h1>
+          <containerCB background="#c1272d" >
+            <h1 class="text-center text-white">OUR VISION</h1>
+            <img src="../../assets/image/home/7.png" class="mx-auto d-block">
+            <h2 class="text-center text-white py-3">WE ARE,</h2>
+            <p class="text-center text-white">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to make a type 
+              specimen book. It has survived not only five centuries, but also the leap into 
+              electronic typesetting, remaining essentially unchanged. It was popularised in 
+              the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+              and more recently with desktop publishing software like Aldus PageMaker including
+              versions of Lorem Ipsum.
+            </p>
           </containerCB>
         </div>
         <div class="row my-4 py-4">
@@ -179,19 +202,19 @@
             <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
               <div class="row">
                 <div class="mx-xl-5 mx-lg-2 mx-md-1">
-                  <Icons iconName="balance-scale-right" iconStyle="color:black;border: solid 0px white;" iconSize="5x" iconClass="circle-icon-large"/>                
+                  <img src="../../assets/image/home/icons/1.png" class="mx-auto d-block">
                 </div>
                 <div class="mx-xl-4 mx-lg-2 ml-md-1">
-                  <Icons iconName="baby-carriage" iconStyle="color:black;border: solid 0px white;" iconSize="5x" iconClass="circle-icon-large"/>
+                  <img src="../../assets/image/home/icons/2.png" class="mx-auto d-block">
                 </div>
                 <div class="mx-xl-4 mx-lg-2 ml-md-1">
-                  <Icons iconName="basketball-ball" iconStyle="color:black;border: solid 0px white;" iconSize="5x" iconClass="circle-icon-large"/>
+                  <img src="../../assets/image/home/icons/3.png" class="mx-auto d-block">
                 </div>
                 <div class="mx-xl-4 mx-lg-2 ml-md-1">
-                  <Icons iconName="car-side" iconStyle="color:black;border: solid 0px white;" iconSize="5x" iconClass="circle-icon-large"/>
+                  <img src="../../assets/image/home/icons/4.png" class="mx-auto d-block">
                 </div>
                 <div class="mx-xl-5 mx-lg-2 ml-md-1">
-                  <Icons iconName="cogs" iconStyle="color:black;border: solid 0px white;" iconSize="5x" iconClass="circle-icon-large"/>
+                  <img src="../../assets/image/home/icons/1.png" class="mx-auto d-block">
                 </div>
               </div>
               
