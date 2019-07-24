@@ -2,7 +2,7 @@
     <div class="row p-0 m-0">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0 m-0">
             <h2 class="text-center"><ins>What We Do</ins></h2>
-            <img src="../../assets/image/about/4.png">
+            <img src="../../assets/image/about/4.png" class="mx-auto d-block">
         </div>
     </div>
 </template>

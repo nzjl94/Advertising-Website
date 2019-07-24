@@ -1,21 +1,11 @@
 <template>
-  <div class="container">
-    <br/>
-    <br/>
-    <br/>
-    <div class="row">
-      <div class="col-sm-4">
-        <h3>Column 1</h3>
-        <p>Lorem ipsum dolor..</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>Column 2</h3>
-        <p>Lorem ipsum dolor..</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>Column 3</h3> 
-        <p>Lorem ipsum dolor..</p>
-      </div>
-    </div>
-  </div>
+    <main-container></main-container>
 </template>
+<script>
+  import mainContainer  from '../components/media/mainContainer';
+  export default {
+    components:{
+      mainContainer
+    }
+  }
+</script>

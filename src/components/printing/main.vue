@@ -2,21 +2,21 @@
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <card-item mHeader="Catalogues" imgUrL="https://picsum.photos/600/300/?image=25"></card-item>
+                <card-item mHeader="Catalogues" imgUrL="print/7.png"></card-item>
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <card-item mHeader="Leaflets" imgUrL="https://picsum.photos/600/300/?image=24"></card-item>
+                <card-item mHeader="Leaflets" imgUrL="print/6.png"></card-item>
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <card-item mHeader="Flyers" imgUrL="https://picsum.photos/600/300/?image=27"></card-item>
+                <card-item mHeader="Flyers" imgUrL="print/5.png"></card-item>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <card-item mHeader="Roll- up Banner" imgUrL="https://picsum.photos/600/300/?image=28"></card-item>
+                <card-item mHeader="Roll- up Banner" imgUrL="print/4.png"></card-item>
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <card-item mHeader="Calendars" imgUrL="https://picsum.photos/600/300/?image=29"></card-item>
+                <card-item mHeader="Calendars" imgUrL="print/3.png"></card-item>
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <b-card class="text-center h-100 p-0">

@@ -1,13 +1,13 @@
 <template>
   <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0 m-0">
     <b-card
-        :img-src="imgUrL"
+        :img-src="require(`../../assets/image/${imgUrL}`)"
         img-alt="Image"
         img-top
         class="text-center"
       >
         <b-card-body>
-          <b-card-title class="text-danger" title-tag="h2">{{mHeader}}</b-card-title>
+          <b-card-title class="text-danger" :title-tag="hTag">{{mHeader}}</b-card-title>
           <b-card-text tag="article" >
               {{body}}
           </b-card-text>
@@ -26,7 +26,8 @@
                 Some quick example text to build on the card title and make up the bulk of the card's content.
                 Some quick example text to build on the card title and make up the bulk of the card's content.
             `},
-            imgUrL: {type: String,default:"https://picsum.photos/600/300/?image=25"}
+            imgUrL: {type: String},
+            hTag: {type: String,default:"h2"}
         },
         data() {
             return {

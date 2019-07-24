@@ -1,5 +1,11 @@
 <template>
-  <div class="about">
-    <h1>This is a design page</h1>
-  </div>
+    <main-container></main-container>
 </template>
+<script>
+  import mainContainer  from '../components/design/mainContainer';
+  export default {
+    components:{
+      mainContainer
+    }
+  }
+</script>
