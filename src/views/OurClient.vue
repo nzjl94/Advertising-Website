@@ -1,13 +1,11 @@
 <template>
-  <div class="row" >
-    <image-background></image-background>
-  </div>
+    <main-container></main-container>
 </template>
 <script>
-  import imageBackground  from '../components/general/imageBackground';
+  import mainContainer  from '../components/client/mainContainer';
   export default {
     components:{
-      imageBackground
+      mainContainer
     }
   }
 </script>

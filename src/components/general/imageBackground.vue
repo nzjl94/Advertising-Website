@@ -1,8 +1,11 @@
 <template>
   <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0 m-0">
-        <b-jumbotron :style="jumbotron">
+        <b-jumbotron :style="jumbotron" class=" mb-0">
             <h2 class="text-white text-center display-4 font-weight-bold">{{mHeader}}</h2>
-            <h5 class="text-white text-center font-weight-bolder">{{sHeader}}</h5>
+            <h5 class="text-white text-center font-weight-bolder" v-if="sHeader.length>0">{{sHeader}}</h5>
+            <b-button pill variant="outline-light" class="px-5 mx-auto d-block" v-if="bHeader.length>0">
+                {{bHeader}}
+            </b-button>
         </b-jumbotron>
   </div>
 </template>
@@ -10,7 +13,8 @@
     export default {
         props: {
             mHeader: {type: String,default:"Our Clients"},
-            sHeader: {type: String,default:"We do Best, We made them happy!"},
+            sHeader: {type: String,default:""},
+            bHeader:{type: String,default:""},
             opacity: {type: String,default:"0.7"},
             height: {type: String,default:"230px"},
             imgUrL: {type: String,default:"print/1.png"}
