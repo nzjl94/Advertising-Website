@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import mainContainer from '../components/outdoors/mainContainer';
+  import mainContainer from '../components/home/mainContainer';
   export default {
     components: {
       mainContainer

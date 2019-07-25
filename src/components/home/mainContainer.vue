@@ -1,28 +1,28 @@
 <template>
     <div class="container-fluid">
-        <above-image></above-image>
         <first-part></first-part>
         <second-part></second-part>
         <third-part></third-part>
         <fourth-part></fourth-part>
         <fifth-part></fifth-part>
+        <sixth-part></sixth-part>
     </div>
 </template>
 <script>
-    import aboveImage  from './aboveImage';
     import firstPart  from './firstPart';
     import secondPart  from './secondPart';
     import thirdPart  from './thirdPart';
     import fourthPart  from './fourthPart';
-    import fifthPart  from '../home/fifthPart';
+    import fifthPart  from './fifthPart';
+    import sixthPart  from './sixthPart';
     export default {
       components:{
-        aboveImage,
         firstPart,
         secondPart,
         thirdPart,
         fourthPart,
-        fifthPart
+        fifthPart,
+        sixthPart
       },
       
     }
@@ -30,4 +30,3 @@
 <style scoped>
 
 </style>
-
