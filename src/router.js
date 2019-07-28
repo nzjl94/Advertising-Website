@@ -17,7 +17,7 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-    {path: '/',       name: 'outdoors',   component: OutDoors},
+    //{path: '/',       name: 'outdoors',   component: OutDoors},
     {path: '/about',  name: 'about',      component: About},
     {path: '/transit',name: 'transit',    component: TransitAd},
     {path: '/contact',name: 'contact',    component: Contact},
