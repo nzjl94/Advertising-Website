@@ -1,10 +1,11 @@
 <template>
     <main-container></main-container>
 </template>
+
 <script>
-  import mainContainer  from '../components/aboutus/mainContainer';
+  import mainContainer from '../components/home/mainContainer';
   export default {
-    components:{
+    components: {
       mainContainer
     }
   }

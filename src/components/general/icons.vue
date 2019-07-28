@@ -2,6 +2,7 @@
     <i :class="[extraClass,iconType,'fa-'+iconName,'fa-'+iconSize,iconClass]" :style="iconStyle"></i>
 </template>
 <script>
+    import '@fortawesome/fontawesome-free/css/all.css'
     export default {
         props: {
             iconType: {type: String,default:"fas"},
@@ -15,11 +16,11 @@
 </script>
 <style scoped>
     .circle-icon {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         text-align: center;
-        line-height: 50px;
+        line-height: 40px;
         vertical-align: middle; 
         border: solid 3px black;
    }
@@ -41,5 +42,7 @@
         vertical-align: middle; 
         border: solid 3px black;
    }
-
+   .fa-2x{
+       font-size:22px;
+   }
 </style>

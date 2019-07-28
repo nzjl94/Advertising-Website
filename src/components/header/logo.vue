@@ -29,8 +29,7 @@
   </div>
 </template>
 <script>
-  import '@fortawesome/fontawesome-free/css/all.css'
-  import Icons from '../ready/icons'
+  import Icons from '../general/icons'
   export default {
     data() {
       return {

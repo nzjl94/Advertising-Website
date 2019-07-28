@@ -6,8 +6,8 @@
   </div>
 </template>
 <script>
-  import Header from "./views/Header";
-  import Footer from "./views/Footer";
+  import Header from "./views/header";
+  import Footer from "./views/footer";
   export default {
     components:{
       Header,

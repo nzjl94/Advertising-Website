@@ -1,13 +1,11 @@
 <template>
-    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-        <div class="row my-4">
+    <div class="row my-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <h2  class="mx-auto text-danger">SUBCRIPTION</h2>
         </div>
-        <div class="row">
-            <form-one></form-one>
-            <form-two></form-two>
-            <form-three></form-three>
-        </div>
+        <form-one></form-one>
+        <form-two></form-two>
+        <form-three></form-three>
     </div>
 </template>
 <script>

@@ -29,7 +29,7 @@
 </template>
 <script>
     import '@fortawesome/fontawesome-free/css/all.css'
-    import Icons from '../ready/icons'
+    import Icons from '../general/icons'
     import containerCB  from '../general/containerColorBackground';
   export default {
     components:{

@@ -44,7 +44,7 @@
 </template>
 <script>
     import '@fortawesome/fontawesome-free/css/all.css'
-    import Icons from '../ready/icons'
+    import Icons from '../general/icons'
     import containerCB  from '../general/containerColorBackground';
     import containerIB  from '../general/containerImageBackground';
     export default {
