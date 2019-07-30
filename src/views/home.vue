@@ -3,10 +3,29 @@
 </template>
 
 <script>
+  import {mapGetters,mapMutations} from 'vuex'
   import mainContainer from '../components/home/mainContainer';
   export default {
     components: {
       mainContainer
+    },
+    methods:{
+      ...mapMutations([
+        "setHomeNavbar"
+      ])
+    },
+    computed:{
+        ...mapGetters([
+          'getHomeNavbar'
+        ])
+    },
+    created (){
+      this.setHomeNavbar();
+      console.log(this.getHomeNavbar);
+    },
+    destroyed() {
+      this.setHomeNavbar();
+      console.log(this.getHomeNavbar);
     }
   }
 </script>

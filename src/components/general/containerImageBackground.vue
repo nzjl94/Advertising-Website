@@ -14,8 +14,7 @@
         data() {
             return {
                 jumbotron:{
-                    "opacity": this.opacity,
-                    "background-image": 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(' + require(`../../assets/image/${this.imgUrL}`) + ')' ,
+                    "background-image": `linear-gradient(rgba(0, 0, 0, ${this.opacity}), rgba(0, 0, 0, ${this.opacity})),url("${require('../../assets/image/'+this.imgUrL) }")` ,
                     "background-position":"center",
                     "background-size": "cover",
                     "background-repeat": "no-repeat",

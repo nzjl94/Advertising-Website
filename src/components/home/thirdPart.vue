@@ -13,7 +13,7 @@
                       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" >
                         <div class="row float-right mr-1">
                           <div class="mr-3" v-for="(item, index) in icons_array" :key="index">
-                            <Icons :iconName="item" iconType="fab" extraClass="" iconStyle="color:rgb(193, 39, 45);border: solid 2px rgb(193, 39, 45);" iconSize="sm" iconClass="circle-icon-small"/>
+                            <Icons :iconName="item" iconType="fab" extraClass="" iconStyle="color:white;border: solid 1px white;" iconSize="sm" iconClass="circle-icon-small"/>
                           </div>
                         </div>
                       </div>
@@ -51,7 +51,7 @@
                       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" >
                         <div class="row float-right mr-1">
                           <div class="mr-3" v-for="(item, index) in icons_array" :key="index">
-                            <Icons :iconName="item" iconType="fab" extraClass="" iconStyle="color:rgb(193, 39, 45);border: solid 2px rgb(193, 39, 45);" iconSize="sm" iconClass="circle-icon-small"/>
+                            <Icons :iconName="item" iconType="fab" extraClass="" iconStyle="color:white;border: solid 1px white;" iconSize="sm" iconClass="circle-icon-small"/>
                           </div>
                         </div>
                       </div>
@@ -113,6 +113,7 @@
         color:white;
         opacity:0.8;
         width:calc(100% - 15px);
+        height:30px;
         background-color:#222;
     }
     .top-left {
@@ -123,6 +124,7 @@
         color:black;
         opacity:0.8;
         width:calc(100% - 15px);
+        height:30px;
         background-color:#222;
     }
 </style>

@@ -1,6 +1,5 @@
 <template>
-    <div class="container-fluid">
-        <first-part></first-part>
+    <div>
         <second-part></second-part>
         <third-part></third-part>
         <fourth-part></fourth-part>
@@ -9,7 +8,6 @@
     </div>
 </template>
 <script>
-    import firstPart  from './firstPart';
     import secondPart  from './secondPart';
     import thirdPart  from './thirdPart';
     import fourthPart  from './fourthPart';
@@ -17,7 +15,6 @@
     import sixthPart  from './sixthPart';
     export default {
       components:{
-        firstPart,
         secondPart,
         thirdPart,
         fourthPart,

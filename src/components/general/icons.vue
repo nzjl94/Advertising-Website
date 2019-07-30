@@ -16,22 +16,22 @@
 </script>
 <style scoped>
     .circle-icon {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         border-radius: 50%;
         text-align: center;
-        line-height: 40px;
+        line-height: 35px;
         vertical-align: middle; 
-        border: solid 3px black;
+        border: solid 2px black;
    }
    .circle-icon-small {
-        width: 25px;
-        height: 25px;
+        width: 16px;
+        height: 16px;
         border-radius: 50%;
         text-align: center;
-        line-height: 25px;
+        line-height: 16px;
         vertical-align: middle; 
-        border: solid 3px black;
+        border: solid 1px black;
    }
    .circle-icon-large {
         width: 120px;
@@ -44,5 +44,8 @@
    }
    .fa-2x{
        font-size:22px;
+   }
+   .fa-sm{
+       font-size:8px;
    }
 </style>

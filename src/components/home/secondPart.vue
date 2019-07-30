@@ -2,30 +2,28 @@
     <div class="row my-2">
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-3">
             <div class="row below">
-              <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" >
-              </div>
               <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pl-0 ml-0 mainContainer">
                 <div class="bottom-left">
-                    <div class="row">
-                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
-                        <p class="text-white text-left pl-3 mb-0">See the Image  in 360 Panorama</p>
+                    <div class="row h-100">
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto">
+                        <p class="text-white text-left pl-3 mb-0" style="font-size:14px;">See the Image  in 360 Panorama</p>
                       </div>
-                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" >
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto" >
                         <div class="row float-right mr-1">
                           <div class="mr-3" v-for="(item, index) in icons_array" :key="index">
-                            <Icons :iconName="item" iconType="fab" extraClass="" iconStyle="color:rgb(193, 39, 45);border: solid 2px rgb(193, 39, 45);" iconSize="sm" iconClass="circle-icon-small"/>
+                            <Icons :iconName="item" iconType="fab" extraClass="" iconStyle="color:white;border: solid 1px white;" iconSize="sm" iconClass="circle-icon-small"/>
                           </div>
                         </div>
                       </div>
                     </div>
                 </div>
                 <div class="top-left">
-                    <div class="row">
-                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        <p class="text-white text-left pl-3 mb-0">New Project</p>
+                    <div class="row h-100">
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto mx-0">
+                        <span class="text-white text-left pl-3 pl-lg-0 mb-0" style="font-size:16px;">New Project</span>
                       </div>
-                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" >
-                        <p class="text-white text-right mr-2 mb-0">Coca Cola Poster - Erbil 100 M St</p>
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto mx-0" >
+                        <span class="text-white text-right mr-2 mb-0" style="font-size:16px;">Coca Cola Poster - Erbil 100 M St</span>
                       </div>
                     </div>
                 </div>
@@ -33,37 +31,33 @@
                   <b-carousel-slide img-src="https://picsum.photos/1024/700/?image=54"></b-carousel-slide>
                   <b-carousel-slide img-src="https://picsum.photos/1024/700/?image=58"></b-carousel-slide>
                 </b-carousel>
-              </div>
-              <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
               </div>
             </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pl-3">
             <div class="row below">
-              <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" >
-              </div>
               <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pl-0 ml-0 mainContainer">
                 <div class="bottom-left">
-                    <div class="row">
-                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
-                        <p class="text-white text-left pl-3 mb-0">See the Image  in 360 Panorama</p>
+                    <div class="row h-100">
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto">
+                        <p class="text-white text-left pl-3 mb-0" style="font-size:14px;">See the Image  in 360 Panorama</p>
                       </div>
-                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" >
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto" >
                         <div class="row float-right mr-1">
                           <div class="mr-3" v-for="(item, index) in icons_array" :key="index">
-                            <Icons :iconName="item" iconType="fab" extraClass="" iconStyle="color:rgb(193, 39, 45);border: solid 2px rgb(193, 39, 45);" iconSize="sm" iconClass="circle-icon-small"/>
+                            <Icons :iconName="item" iconType="fab" extraClass="" iconStyle="color:white;border: solid 1px white;" iconSize="sm" iconClass="circle-icon-small"/>
                           </div>
                         </div>
                       </div>
                     </div>
                 </div>
                 <div class="top-left">
-                    <div class="row">
-                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        <p class="text-white text-left pl-3 mb-0">New Project</p>
+                    <div class="row h-100">
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto">
+                        <p class="text-white text-left pl-3 mb-0" style="font-size:16px;">New Project</p>
                       </div>
-                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" >
-                        <p class="text-white text-right mr-2 mb-0">Coca Cola Poster - Erbil 100 M St</p>
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto" >
+                        <p class="text-white text-right mr-2 mb-0" style="font-size:16px;">Coca Cola Poster - Erbil 100 M St</p>
                       </div>
                     </div>
                 </div>
@@ -71,8 +65,6 @@
                   <b-carousel-slide img-src="https://picsum.photos/1024/700/?image=54"></b-carousel-slide>
                   <b-carousel-slide img-src="https://picsum.photos/1024/700/?image=58"></b-carousel-slide>
                 </b-carousel>
-              </div>
-              <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
               </div>
             </div>
         </div>
@@ -113,6 +105,7 @@
         color:white;
         opacity:0.8;
         width:calc(100% - 15px);
+        height:30px;
         background-color:#222;
     }
     .top-left {
@@ -123,6 +116,7 @@
         color:black;
         opacity:0.8;
         width:calc(100% - 15px);
+        height:30px;
         background-color:#222;
     }
 </style>
