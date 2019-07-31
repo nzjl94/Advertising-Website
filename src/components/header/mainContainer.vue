@@ -12,13 +12,25 @@
                 opacity="0.4"
             >
               <logo color="white"></logo>
-              <hNavbar ></hNavbar>
+              <hNavbar homeToggle="getHomeNavbar"></hNavbar>
               <div class="h-25">
                 <h1 class="text-white text-center pt-5" style="font-size:60px;">Light Up Advertising</h1>
                 <h2 class="text-white text-center pt-2" style="font-size:60px;font-weight:900;">Your <span style="color:rgb(193, 39, 45);">Brand</span></h2>
               </div>
-              <div class="baby text-white">
-                  <h1>Hello World</h1>
+              <div class="beloDiv text-white w-100">
+                  <h2 class="ml-3 mt-3">Why use Outdoor ?</h2>
+                  <div class="row h-100 w-100 mb-2">
+                    <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                      <h4 class="ml-3">
+                        Our ultimate goad and passion are about helping brands to meet the ever-shifting needs of communicates and cultures
+                      </h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 mx-auto mt-0">
+                      <b-button type="submit" variant="outline-light" class="btn-block py-2 px-1" style="font-size:18px;border-radius: 12px;">
+                          Learn More
+                      </b-button>
+                    </div>
+                  </div>
               </div>
 
             </containerIB>
@@ -51,9 +63,9 @@
     }
 </script>
 <style scoped>
-
-  .baby {
+  .beloDiv {
       position: absolute;
       bottom: 0;
+      background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
   }
 </style>

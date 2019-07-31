@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid">
+    <div>
         <above-image></above-image>
         <first-part></first-part>
         <second-part></second-part>

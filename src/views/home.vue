@@ -21,11 +21,9 @@
     },
     created (){
       this.setHomeNavbar();
-      console.log(this.getHomeNavbar);
     },
     destroyed() {
       this.setHomeNavbar();
-      console.log(this.getHomeNavbar);
     }
   }
 </script>

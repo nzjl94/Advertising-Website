@@ -1,5 +1,5 @@
 <template>
-    <div class="m-0 p-0">
+    <div>
         <first-part></first-part>
         <second-part></second-part>
         <third-part></third-part>

@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
         <div class="row">
-          <img src="../../assets/logo1.png" class="" height="150px">
+          <img src="../../assets/image/logo/logo.png" class="" height="150px">
         </div>
       </div>
       <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 my-auto">

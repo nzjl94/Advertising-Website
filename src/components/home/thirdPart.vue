@@ -30,8 +30,8 @@
                     </div>
                 </div>
                 <b-carousel id="carousel-1" :interval="4000" controls background="#ababab" style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
-                  <b-carousel-slide img-src="https://picsum.photos/1024/700/?image=54"></b-carousel-slide>
-                  <b-carousel-slide img-src="https://picsum.photos/1024/700/?image=58"></b-carousel-slide>
+                  <b-carousel-slide img-src="../../assets/image/home/2.png"></b-carousel-slide>
+                  <b-carousel-slide img-src="../../assets/image/home/6.png"></b-carousel-slide>
                 </b-carousel>
               </div>
               <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -68,8 +68,8 @@
                     </div>
                 </div>
                 <b-carousel id="carousel-1" :interval="4000" controls background="#ababab" style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
-                  <b-carousel-slide img-src="https://picsum.photos/1024/700/?image=54"></b-carousel-slide>
-                  <b-carousel-slide img-src="https://picsum.photos/1024/700/?image=58"></b-carousel-slide>
+                  <b-carousel-slide img-src="../../assets/image/home/2.png"></b-carousel-slide>
+                  <b-carousel-slide img-src="../../assets/image/home/6.png"></b-carousel-slide>
                 </b-carousel>
               </div>
               <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
