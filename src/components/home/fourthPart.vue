@@ -4,7 +4,7 @@
           <h1 class="text-center" style="color:#c1272d;">OUR MISSION</h1>
           <img src="../../assets/image/home/8.png" class="mx-auto d-block">
           <h2 class="text-center py-3" style="color:#c1272d;">WE ARE,</h2>
-          <p class="text-center">
+          <p class="text-center" style="font-size:18px;">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
             when an unknown printer took a galley of type and scrambled it to make a type 
@@ -19,7 +19,7 @@
           <h1 class="text-center text-white">OUR VISION</h1>
           <img src="../../assets/image/home/7.png" class="mx-auto d-block">
           <h2 class="text-center text-white py-3">WE ARE,</h2>
-          <p class="text-center text-white">
+          <p class="text-center text-white" style="font-size:18px;">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
             when an unknown printer took a galley of type and scrambled it to make a type 

@@ -1,6 +1,6 @@
 <template>
     <div class="row my-2">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-3">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-3" >
             <div class="row below">
               <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pl-0 ml-0 mainContainer">
                 <div class="bottom-left">
@@ -11,7 +11,7 @@
                       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto" >
                         <div class="row float-right mr-1">
                           <div class="mr-3" v-for="(item, index) in icons_array" :key="index">
-                            <Icons :iconName="item" iconType="fab" extraClass="" iconStyle="color:white;border: solid 1px white;" iconSize="sm" iconClass="circle-icon-small"/>
+                            <Icons :iconName="item" iconType="fab" extraClass="" iconStyle="color:white;border: solid 1px white;" iconSize="sm" iconClass="circle-icon logoStyle3"/>
                           </div>
                         </div>
                       </div>
@@ -27,9 +27,13 @@
                       </div>
                     </div>
                 </div>
-                <b-carousel id="carousel-1" :interval="4000" controls background="#ababab" style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
-                  <b-carousel-slide img-src="../../assets/image/home/2.png"></b-carousel-slide>
-                  <b-carousel-slide img-src="../../assets/image/home/6.png"></b-carousel-slide>
+                <b-carousel id="carousel-1" :interval="4000" img-width="1024" img-height="480" controls background="#ababab" style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
+                  <b-carousel-slide>
+                    <img slot="img" class="w-100" height="390px;" src="../../assets/image/home/2.png" alt="image slot">
+                  </b-carousel-slide>
+                  <b-carousel-slide>
+                    <img slot="img" class="w-100" height="390px;" src="../../assets/image/home/6.png" alt="image slot">
+                  </b-carousel-slide>
                 </b-carousel>
               </div>
             </div>
@@ -45,7 +49,7 @@
                       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-auto" >
                         <div class="row float-right mr-1">
                           <div class="mr-3" v-for="(item, index) in icons_array" :key="index">
-                            <Icons :iconName="item" iconType="fab" extraClass="" iconStyle="color:white;border: solid 1px white;" iconSize="sm" iconClass="circle-icon-small"/>
+                            <Icons :iconName="item" iconType="fab" extraClass="" iconStyle="color:white;border: solid 1px white;" iconSize="sm" iconClass="circle-icon logoStyle3"/>
                           </div>
                         </div>
                       </div>
@@ -61,10 +65,10 @@
                       </div>
                     </div>
                 </div>
-                <b-carousel id="carousel-1" :interval="4000" controls background="#ababab" style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
-                  <b-carousel-slide img-src="https://picsum.photos/1024/700/?image=54"></b-carousel-slide>
-                  <b-carousel-slide img-src="https://picsum.photos/1024/700/?image=58"></b-carousel-slide>
-                </b-carousel>
+                <video width="100%" height="390px;" controls>
+                  <source src="../../assets/video/1.mp4" type="video/mp4">
+                </video>
+
               </div>
             </div>
         </div>

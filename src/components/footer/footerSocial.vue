@@ -7,7 +7,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <div class="row">
                   <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2" v-for="(item, index) in icons_array" :key="index">
-                    <Icons :iconName="item" iconType="fab" iconStyle="color:white;border: solid 3px white;" />
+                    <Icons :iconName="item" iconType="fab" iconStyle="color:white;border: solid 3px white;" iconClass="circle-icon logoStyle2" />
                   </div>
               </div>
           </div>

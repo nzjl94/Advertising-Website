@@ -11,7 +11,7 @@
           <h1 :style="'color:'+color">Light Up Your Brand</h1>
           <div class="row">
               <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 mx-0 px-0" v-for="(item, index) in icons_array" :key="index">
-                  <Icons :iconName="item" iconType="fab" :iconStyle="'color:'+color+';border: solid 3px '+color"/>
+                  <Icons :iconName="item" iconType="fab" :iconStyle="'color:'+color+';border: solid 3px '+color" iconClass="circle-icon logoStyle1"/>
               </div>
             </div>
         </div>
