@@ -1,7 +1,7 @@
 <template>
     <div>
         <div v-if="getHomeNavbar" class="row">
-          <logo color="black"></logo>
+          <logo color="black" logo="blackLogo.png"></logo>
           <hNavbar ></hNavbar>
         </div>
         <div class="row"  v-else>

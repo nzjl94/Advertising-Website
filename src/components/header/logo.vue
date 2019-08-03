@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
         <div class="row">
-          <img src="../../assets/image/logo/logo.png" class="" height="150px">
+          <img :src="require(`../../assets/image/logo/${logo}`)" class="ml-4 my-3" height="90px" width="326px;">
         </div>
       </div>
       <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 my-auto">
@@ -24,6 +24,7 @@
   export default {
     props: {
       color: {type: String,default:"black"},
+      logo:  {type: String,default:"logo.png"},
     },
     data() {
       return {

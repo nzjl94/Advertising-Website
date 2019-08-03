@@ -7,7 +7,7 @@
       </div>
       <div class="row mt-3">
         <div class="mx-2 px-0" v-for="(item, index) in icons_array" :key="index">
-          <Icons :iconName="item" iconType="fab" iconStyle="color:rgb(193, 39, 45);border: solid 3px rgb(193, 39, 45);"/>
+          <Icons :iconName="item" iconType="fab" iconStyle="color:rgb(193, 39, 45);border: solid 3px rgb(193, 39, 45);" iconClass="circle-icon logoStyle1"/>
         </div>
       </div>
       <hr/>
