@@ -11,7 +11,7 @@
                 We offer newspaper, radio, magazine, and TV.
                 Commercial ads. for you to choose from or you can choose them all!
             </p>
-            <img src="../../assets/image/media/2.png" class="mx-auto d-block">
+            <img src="../../assets/image/media/2.png" class="mx-auto d-block img-fluid">
             <b-button type="submit" id="getStarted" class=" py-3 mt-1 mt-4" >
                 Get Started
             </b-button>

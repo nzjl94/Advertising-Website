@@ -1,5 +1,5 @@
 <template>
-    <div class="row my-1">
+    <div class="row " style="margin-top:10px;">
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  p-0 m-0 pr-1" >
           <first-style 
               showIcon="true"

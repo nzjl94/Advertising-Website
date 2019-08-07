@@ -20,9 +20,9 @@
             <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 my-3">
               <Icons iconName="phone-alt" iconStyle="color:rgb(193, 39, 45);" iconClass="" />
             </div>
-            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
-              <h5 class="float-left">+964 (0) 750 155 1212</h5>
-              <h5 class="float-left">+964 (0) 770 155 1212</h5>
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 float-left">
+              <h5 >+964 (0) 750 155 1212</h5>
+              <h5 >+964 (0) 770 155 1212</h5>
             </div>
           </div>
         </div>

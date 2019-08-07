@@ -1,11 +1,11 @@
 <template>
     <div class="row my-auto h-100" style="background-color:#c1272d;">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-white my-auto">
-            <h4 class="justify-content-center align-self-center">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-white my-auto">
+            <h4 class="ml-3">
                 Guide to Buying outdoor Advertising
             </h4>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
             <button type="button" class="btn btn-default float-right">GET STARTED</button>
         </div>
     </div>
