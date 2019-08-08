@@ -19,5 +19,15 @@ module.exports = {
   
           return options
         })
+    },
+    css: {
+      loaderOptions: {
+        sass: {
+          //data: `$color: red;` you can also use that
+          data: `
+            @import "@/style/global/_variables.scss";
+          `
+        }
+      }
     }
   }

@@ -14,14 +14,14 @@
               <logo color="white"></logo>
               <hNavbar homeToggle="getHomeNavbar"></hNavbar>
               <div class="h-25">
-                <h1 class="text-white text-center pt-5" style="font-size:60px;">Light Up Advertising</h1>
-                <h2 class="text-white text-center pt-2" style="font-size:60px;font-weight:bold;">Your <span style="color:rgb(193, 39, 45);">Brand</span></h2>
+                <h1 class="text-white text-center pt-5 header_style1" >Light Up Advertising</h1>
+                <h2 class="text-white text-center pt-2 header_style2" style="font-weight:bold;">Your <span style="color:rgb(193, 39, 45);">Brand</span></h2>
               </div>
               <div class="beloDiv text-white w-100 px-4" style="height:130px;">
-                  <h2 class="ml-3 mt-3" style="font-size:24px;">Why use Outdoor ?</h2>
+                  <h2 class="ml-3 mt-3 header_style3">Why use Outdoor ?</h2>
                   <div class="row h-100 w-100 mb-2">
                     <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
-                      <h4 class="mx-3" style="font-size:24px;">
+                      <h4 class="mx-3 header_style4">
                         Our ultimate goad and passion are about helping brands to meet the ever-shifting needs of communicates and cultures
                       </h4>
                     </div>
@@ -62,10 +62,12 @@
       }
     }
 </script>
-<style scoped>
+<style  lang="scss" scoped>
+  @import "../../style/components/header/mainContainer.scss";
   .beloDiv {
       position: absolute;
       bottom: 0;
       background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
   }
+
 </style>

@@ -8,7 +8,7 @@
       </div>
       <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 my-auto">
         <div class="float-right pr-4">
-          <h1 :style="'font-size:27px;color:'+color">
+          <h1 class="logo_style1" :style="'color:'+color">
             <span style="font-family: 'Montserrat','SF Pro Display';font-weight:200;">Light Up </span>
             <span>Your </span>
             <span style="font-weight: bold;">Brand </span>
@@ -42,6 +42,7 @@
   }
 </script>
 <style scoped>
+    @import "../../style/components/header/logo.scss";
     @import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,700');
 </style>
 
