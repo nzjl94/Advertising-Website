@@ -33,7 +33,7 @@
   }
 </script>
 <style scoped>
-  @import "../../style/components/header/navbar.scss";
+  @import "../../assets/style/components/header/navbar.scss";
   .nav-link{
       color:black!important;
       font-weight: bold;

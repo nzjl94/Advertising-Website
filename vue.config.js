@@ -25,7 +25,7 @@ module.exports = {
         sass: {
           //data: `$color: red;` you can also use that
           data: `
-            @import "@/style/global/_variables.scss";
+            @import "@/assets/style/global/_variables.scss";
           `
         }
       }

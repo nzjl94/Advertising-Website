@@ -15,7 +15,12 @@
             </h1>
           <div class="float-left">
             <span :class="index==0?'ml-0 pl-0':' px-0'" style="margin-right:9px;" v-for="(item, index) in icons_array" :key="index">
-                <Icons :iconName="item" iconType="fab" :iconStyle="'color:'+color+';border: solid 3px '+color" iconClass="circle-icon logoStyle1"/>
+                <Icons 
+                  :iconName="item" 
+                  iconType="fab" 
+                  :iconStyle="'color:'+color+';border: solid 3px '+color" 
+                  iconClass="circle-icon logoStyle1"
+                />
             </span>
           </div>
         </div>
@@ -42,7 +47,7 @@
   }
 </script>
 <style scoped>
-    @import "../../style/components/header/logo.scss";
+    @import "../../assets/style/components/header/logo.scss";
     @import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,700');
 </style>
 

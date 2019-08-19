@@ -63,7 +63,7 @@
     }
 </script>
 <style  lang="scss" scoped>
-  @import "../../style/components/header/mainContainer.scss";
+  @import "../../assets/style/components/header/mainContainer.scss";
   .beloDiv {
       position: absolute;
       bottom: 0;
