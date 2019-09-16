@@ -38,8 +38,9 @@
     }
   }
 </script>
-<style scoped>
-    ins { 
+<style  lang="scss" scoped>
+  @import "../../assets/style/components/about/firstPart.scss";
+  ins { 
       text-decoration:none;
       border-bottom: 2px solid red;
       padding-bottom: 5px;

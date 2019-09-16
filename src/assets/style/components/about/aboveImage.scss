@@ -1,0 +1,56 @@
+@media (min-width:320px) {
+    ::v-deep .mHeader {
+        font-size:24px;
+        letter-spacing: 0.48px;
+        text-shadow: 0px 3px 6px #00000029;
+        opacity: 1;
+    }
+    ::v-deep .sHeader {
+        font-size:18px;
+        letter-spacing: 0.36px;
+        text-shadow: 0px 3px 6px #00000029;
+        opacity: 1;
+    }
+}
+@media (min-width:768px) {
+    ::v-deep .mHeader {
+        font-size:34px;
+        letter-spacing: 0.68px;
+        text-shadow: 0px 3px 6px #00000029;
+        opacity: 1;
+    }
+    ::v-deep .sHeader {
+        font-size:30px;
+        letter-spacing: 0.6px;
+        text-shadow: 0px 3px 6px #00000029;
+        opacity: 1;
+    }
+}
+@media (min-width:1024px) {
+    ::v-deep .mHeader {
+        font-size:42px;
+        letter-spacing: 0.84px;
+        text-shadow: 0px 3px 6px #00000029;
+        opacity: 1;
+    }
+    ::v-deep .sHeader {
+        font-size:34px;
+        letter-spacing: 0.84px;
+        text-shadow: 0px 3px 6px #00000029;
+        opacity: 1;
+    }
+}
+@media (min-width:1440px) {
+    ::v-deep .mHeader {
+        font-size:42px;
+        letter-spacing: 0.68px;
+        text-shadow: 0px 3px 6px #00000029;
+        opacity: 1;
+    }
+    ::v-deep .sHeader {
+        font-size:34px;
+        letter-spacing: 0.68px;
+        text-shadow: 0px 3px 6px #00000029;
+        opacity: 1;
+    }
+}

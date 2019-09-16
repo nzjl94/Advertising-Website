@@ -1,7 +1,7 @@
 <template>
     <div class="row py-3 px-0 mx-0">
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 px-0 mx-0">
-            <img src="../../assets/image/about/1.png">
+            <img src="../../assets/image/about/1.png" class="img-fluid" width="100%">
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 px-0 mx-0">
             <containerCB 
@@ -43,7 +43,7 @@
       }
     }
 </script>
-<style scoped>
+<style scoped lang="scss">
     ins { 
       text-decoration:none;
       border-bottom: 2px solid red;
@@ -55,4 +55,5 @@
     .padding2{
         padding-left: 140px
     }
+    @import "../../assets/style/components/about/secondPart.scss";
 </style>

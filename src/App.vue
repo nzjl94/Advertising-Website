@@ -1,8 +1,8 @@
 <template>
   <div id="app" class="container-fluid m-0 p-0">
-    <Header></Header>
-    <router-view/>
-    <Footer></Footer>
+     <Header></Header>
+     <router-view/>
+     <Footer></Footer>
   </div>
 </template>
 <script>

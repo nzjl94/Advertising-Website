@@ -5,6 +5,7 @@
         <second-part></second-part>
         <third-part></third-part>
         <fourth-part></fourth-part>
+        <sixth-part></sixth-part>
         <fifth-part></fifth-part>
     </div>
 </template>
@@ -15,6 +16,7 @@
     import thirdPart  from './thirdPart';
     import fourthPart  from './fourthPart';
     import fifthPart  from '../home/fifthPart';
+    import sixthPart  from './sixthPart';
     export default {
       components:{
         aboveImage,
@@ -22,6 +24,7 @@
         secondPart,
         thirdPart,
         fourthPart,
+        sixthPart,
         fifthPart
       },
       

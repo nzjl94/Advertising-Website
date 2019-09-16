@@ -55,10 +55,11 @@
       }
     }
 </script>
-<style scoped>
+<style scoped lang="scss">
     ins { 
       text-decoration:none;
       border-bottom: 2px solid white;
       padding-bottom: 5px;
     }
+      @import "../../assets/style/components/about/thirdPart.scss";
 </style>
