@@ -1,20 +1,140 @@
+@media (max-width:320px) {
+    .logoImage{
+        height: 40px;
+        width: 100px;
+        margin-left:15px;
+        margin-top:10px;
+        margin-bottom:5px;
+    }
+    .logoImageContainer{
+        margin-left:25%;
+    }
+    .allIconsContainer{
+        display:none;
+    }
+    .mainContainer{
+        height:40px;
+    }
+
+}
 @media (min-width:320px) {
-    .logo_style1{
+    .logoImage{
+        height: 40px;
+        width: 145px;
+        margin-left:15px;
+        margin-top:10px;
+        margin-bottom:5px;
+    }
+    .logoMainText{
         font-size: 12px;    
+    }
+    ::v-deep .logoIcons{
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        border: solid 1px black;
+        color:black;
+    }
+    ::v-deep .fa-1x{
+        font-size:11px;
+    }
+    .mainContainer{
+        height:130px;
+    }
+    .iconSpan{
+        margin-right: 2px;
     }
 }
 @media (min-width:768px) {
-    .logo_style1{
+    .logoImage{
+        height: 60px;
+        width: 217px;
+        margin-left:24px;
+        margin-top:5px;
+        margin-bottom:5px;
+    }
+    .logoMainText{
         font-size: 20px;    
+    }
+    .iconSpan{
+        margin-right: 6px;
+    }
+    ::v-deep .logoIcons{
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+        border: solid 2px black;
+        color:black;
+    }
+    ::v-deep .fa-1x{
+        font-size:14px;
     }
 }
 @media (min-width:1024px) {
-    .logo_style1{
+    .logoImage{
+        height: 90px;
+        width: 326px;
+        margin-left:42px;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .logoMainText{
         font-size: 28px;    
+    }
+    ::v-deep .logoIcons{
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        border: solid 2px black;
+        color:black;
+    }
+    ::v-deep .fa-1x{
+        font-size:22px;
+    }
+    .iconSpan{
+        margin-right: 9px;
     }
 }
 @media (min-width:1440px) {
-    .logo_style1{
-        font-size: 28px;    
-    } 
+    .logoImage{
+        height: 90px;
+        width: 326px;
+        margin-left:60px;
+        margin-top:20px;
+        margin-bottom:20px;  
+    }
+    .logoMainText{
+        font-size: 28px;  
+    }
+    .iconSpan{
+        padding: 9px;
+    }
+    ::v-deep .logoIcons{
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        border: solid 2px;
+    }
+    ::v-deep .fa-1x{
+        font-size:22px;
+    }
+    
+}
+
+::v-deep .circle-icon {
+    border-radius: 50%;
+    text-align: center; 
+    vertical-align: middle;  
+}
+::v-deep .logoIconsBlack{
+    border-color: black;
+    color:black;
+}
+::v-deep .logoIconsWhite{
+    border-color: white;
+    color:white;
+}
+.headerSpan{
+    font-family: Montserrat,SF Pro Display;
+    font-weight:200;
 }

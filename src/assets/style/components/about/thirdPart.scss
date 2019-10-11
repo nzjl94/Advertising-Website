@@ -1,12 +1,153 @@
 @media (min-width:320px) {
-
+    .firstBlockMainText{
+        font-size:14px;
+        color: #FFFFFF;
+        padding-left:15px;
+        padding-right:15px;
+        text-align: justify;
+    }
+    .firstBlockHeader{
+        font-size:18px;
+        padding-top:24px;
+        text-align:center;
+    }
+    .footerText {
+        font-size:20px;
+        height: 24px;
+    }
+    .secondBlockHeader{
+        font-size:18px;
+        padding-top:24px;
+    }
+    .secondBlockContentText{
+        padding-left:15px;
+        padding-right:15px;
+        text-align: justify;
+    }
 }
 @media (min-width:768px) {
-
+    .firstBlockMainText{
+        font-size:14px;
+        color: #FFFFFF;
+        padding-left:24px;
+        padding-right:24px;
+        margin-top: 16px;
+        text-align: justify;
+    }
+    .firstBlockHeader{
+        font-size:18px;
+        padding-top:24px;
+        text-align:center;        
+    }
+    .footerText {
+        font-size:22px;
+        height: 24px;
+    }
+    .secondBlockHeader{
+        font-size:18px;
+        padding-top:24px;
+    }
+    .secondBlockContentText{
+        padding-left:10px;
+        padding-right:24px;
+        text-align: justify;
+    }
 }
 @media (min-width:1024px) {
-
+    .firstBlockMainText{
+        font-size:16px;
+        color: #FFFFFF;
+        padding-left:42px;
+        padding-right:42px;
+        margin-top: 18px;
+        text-align: justify;
+    }
+    .firstBlockHeader{
+        font-size:22px;
+        padding-top:24px;
+        text-align:center;
+    }
+    .footerText{
+        font-size:24px;
+        height: 30px;
+    }
+    .secondBlockHeader{
+        font-size:22px;
+        padding-top:24px;
+    }
+    .secondBlockContentText{
+        padding-left:10px;
+        padding-right:42px;
+        text-align: justify;
+    }
 }
 @media (min-width:1440px) {
+    .firstBlockMainText{
+        font-size:18px;
+        color: #FFFFFF;
+        padding-left:95px;
+        padding-right:95px;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    
+    .firstBlockHeader{
+        font-size:24px;
+        padding-top:24px;
+        text-align:center;
+    }
 
+    .footerText {
+        font-size:26px;
+        height: 30px;
+    }
+    .secondBlockHeader{
+        font-size:24px;
+        padding-top:24px;
+
+    }
+    .secondBlockContentText{
+        padding-left:95px;
+        padding-right:95px;
+        text-align: justify;
+    }
+}
+
+.footerText{
+    margin-bottom: 0px;
+}
+.secondBlockHeader{
+    color:white;
+    text-align:center;
+}
+.secondBlockHeaderIns{
+    text-decoration:none;
+    border-bottom: 2px solid #C1272D;
+    padding-bottom: 5px;
+}
+.firstBlockHeaderIns{
+    text-decoration:none;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+.secondBlockContentText{
+    color:#cccccc;
+    text-align: justify;
+}
+
+
+
+ul {
+    margin: 0;
+    padding-left:10px;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
 }

@@ -10,7 +10,7 @@
 <script>
     import secondPart  from './secondPart';
     import thirdPart  from './thirdPart';
-    import fourthPart  from './fourthPart';
+    import fourthPart  from '../client/thirdPart';
     import fifthPart  from './fifthPart';
     import sixthPart  from './sixthPart';
     export default {

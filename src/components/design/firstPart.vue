@@ -2,9 +2,9 @@
     <div class="row">
         <image-background 
           imgUrL="design/2.png"
-          opacity="0.6"
-          mHeader="Designing" 
-          sHeader="Designing your Business will be Easy with Us!" 
+          opacity="1"
+          :mHeader='{"text":"Designing","classes":"text-white text-center mainText"} '
+          :sHeader='{"text":"Designing your Business will be Easy with Us!", "classes":"text-white text-center subText"}'
         ></image-background>
     </div>
     
@@ -17,3 +17,6 @@
     }
   }
 </script>
+<style  lang="scss" scoped>
+  @import "../../assets/style/components/design/firstPart.scss";
+</style>

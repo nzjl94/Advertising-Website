@@ -1,9 +1,27 @@
+@media (max-width:320px) {
+    .navbar-collapse {
+        z-index: 1000;
+        background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+        background: #eee;
+    }
+}
 @media (min-width:320px) {
     .navbar_style1{
         font-size: 14px;    
     }
+    .navbar-collapse {
+        z-index: 1000;
+        background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+        background: #eee;
+
+    }
 }
 @media (min-width:768px) {
+    .navbar-collapse {
+        z-index: 1000;
+        background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+        background: #eee;
+    }
     .navbar_style1{
         font-size: 14px;    
     }

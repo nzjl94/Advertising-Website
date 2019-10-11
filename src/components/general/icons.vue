@@ -1,5 +1,5 @@
 <template>
-    <i :class="[extraClass,iconType,'fa-'+iconName,'fa-'+iconSize,iconClass]" :style="iconStyle"></i>
+    <i :class="[iconType,'fa-'+iconName,iconClass]"></i>
 </template>
 <script>
     import '@fortawesome/fontawesome-free/css/all.css'
@@ -7,30 +7,17 @@
         props: {
             iconType: {type: String,default:"fas"},
             iconName: {type: String,default:"camera"},
-            iconSize: {type: String,default:"2x"},
-            iconStyle: {type: String,default:"color:black;"},
-            iconClass: {type: String,default:"circle-icon"},
-            extraClass: {type: String,default:""},
+            iconClass: {type: String,default:""},
         }
     }
 </script>
 <style scoped>
-    .circle-icon {
-        border-radius: 50%;
-        text-align: center; 
-        vertical-align: middle;  
-    }
+    
     .logoStyle1{
         width: 35px;
         height: 35px;
         line-height: 35px;
         border: solid 2px black;
-    }
-    .logoStyle2{
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-        border: solid 3px black;
     }
     .logoStyle3{
         width: 16px;

@@ -1,5 +1,5 @@
 <template>
-  <div :class="grid" style="overflow-y:scroll;" :style="[style]">
+  <div :class="grid" :style="[style]">
        <slot></slot>
   </div>
 </template>

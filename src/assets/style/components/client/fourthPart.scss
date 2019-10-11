@@ -1,0 +1,56 @@
+@media (max-width:320px) {
+    ::v-deep .mainText{
+        font-size:18px;
+    }
+    ::v-deep .subText{
+        font-size:14px;
+    }
+}
+@media (min-width:320px) {
+    ::v-deep .mainText{
+        font-size:24px;
+    }
+    ::v-deep .subText{
+        font-size:14px;
+        padding:12px 63px 12px 63px;
+        margin-top:32px;
+    }
+}
+@media (min-width:768px) {
+    ::v-deep .mainText{
+        font-size:30px;
+    }
+    ::v-deep .subText{
+        font-size:18px;
+        padding:11px 43px 11px 43px;
+        margin-top:30px;
+    }
+}
+@media (min-width:1024px) {
+    ::v-deep .mainText{
+        font-size:34px;
+    }
+    ::v-deep .subText{
+        font-size:20px;
+        padding:11px 43px 11px 43px;
+        margin-top:30px;
+    }
+}
+@media (min-width:1440px) {
+    ::v-deep .mainText{
+        font-size:34px;
+    }
+    ::v-deep .subText{
+        font-size:24px;
+        padding:11px 43px 11px 43px;
+        margin-top:30px;
+    }
+}
+::v-deep .mainText{
+    font-family: "Segoe UI",sans-serif;
+    margin-bottom: 20px;
+}
+::v-deep .subText{
+    font-family: sans-serif;
+}
+

@@ -6,9 +6,9 @@
         img-top
         class="text-center"
       >
-        <b-card-body>
-          <b-card-title class="text-danger" :title-tag="hTag">{{mHeader}}</b-card-title>
-          <b-card-text tag="article" >
+        <b-card-body class="px-0">
+          <b-card-title :class="classes.headerClass" :title-tag="hTag">{{mHeader}}</b-card-title>
+          <b-card-text tag="article" :class="classes.bodyClass">
               {{body}}
           </b-card-text>
           <b-button type="submit" block pill variant="outline-danger">Request</b-button>
@@ -27,7 +27,8 @@
                 Some quick example text to build on the card title and make up the bulk of the card's content.
             `},
             imgUrL: {type: String},
-            hTag: {type: String,default:"h2"}
+            hTag: {type: String,default:"h2"},
+            classes:{type: Object,default: () => ({headerClass:"",bodyClass:""})}
         },
         data() {
             return {

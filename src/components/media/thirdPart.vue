@@ -1,32 +1,32 @@
 <template>
-    <div class="row pb-3 mx-2">
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 py-1">
-            <b-button type="submit" variant="outline-danger" id="getStarted" class="btn-block py-3" >
+    <div class="row buttonContainer">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 ">
+            <b-button type="submit" variant="outline-danger"  class="btn-block allButtons" >
                 Newspaper
             </b-button>
         </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 py-1">
-            <b-button type="submit" variant="outline-danger" id="getStarted" class="btn-block py-3" >
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 ">
+            <b-button type="submit" variant="outline-danger"  class="btn-block allButtons" >
                 Radio
             </b-button>
         </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 py-1">
-            <b-button type="submit" variant="outline-danger" id="getStarted" class="btn-block py-3" >
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 ">
+            <b-button type="submit" variant="outline-danger"  class="btn-block allButtons" >
                 Magazine
             </b-button>
         </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 py-1">
-            <b-button type="submit" variant="outline-danger" id="getStarted" class="btn-block py-3" >
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 ">
+            <b-button type="submit" variant="outline-danger"  class="btn-block allButtons" >
                 TV Commercial ads.
             </b-button>
         </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 py-1">
-            <b-button type="submit" variant="outline-danger" id="getStarted" class="btn-block py-3" >
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 ">
+            <b-button type="submit" variant="outline-danger"  class="btn-block allButtons" >
                 Company Profile
             </b-button>
         </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 py-1">
-            <b-button type="submit" variant="outline-danger" id="getStarted" class="btn-block py-3" >
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 ">
+            <b-button type="submit" variant="outline-danger"  class="btn-block allButtons" >
                 Tv. Subtitle ads.
             </b-button>
         </div>
@@ -38,11 +38,10 @@
       },
       data() {
           return {
-              buttonsLabel:["Newspaper","Radio","Magazine","Tv C","",""]
           }
       },
     }
 </script>
-<style scoped>
-    
+<style  lang="scss" scoped>
+  @import "../../assets/style/components/media/thirdPart.scss";
 </style>

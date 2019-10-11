@@ -1,27 +1,15 @@
 <template>
-    <div class="row mb-3">
-        <containerCB 
-            background="white" 
-            grid="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center"
-            height=""
-        >
-            <h3 class="text-center pb-3"><ins>Designing</ins></h3>
-            <p class="text-center">
-                In these modern  times press in an  ingenious way to get your bussiness recognized.
-                We offer newspaper, radio, magazine, and TV.
-                Commercial ads. for you to choose from or you can choose them all!
-                In these modern  times press in an  ingenious way to get your bussiness recognized.
-                We offer newspaper, radio, magazine, and TV.
-                Commercial ads. for you to choose from or you can choose them all!
-                In these modern  times press in an  ingenious way to get your bussiness recognized.
-                We offer newspaper, radio, magazine, and TV.
-                Commercial ads. for you to choose from or you can choose them all!
-                In these modern  times press in an  ingenious way to get your bussiness recognized.
-                We offer newspaper, radio, magazine, and TV.
-                Commercial ads. for you to choose from or you can choose them all!
-            </p>
-        </containerCB>
-    
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <h3 class="mainText"><ins class="insClass">Designing</ins></h3>
+            <p class="contentText">
+                Creating effective advertising designs idea is a way to outshine potential competitors while attracting new potential customers
+                or clients remembers and want to learn more about your brand. Every brand, from the smallest company or startup, to corporate
+                giants need a set of branding guidelines and rules to maintain their identity. This document, which can range from a couple of
+                pages, to several hundred, is the thread that holds together what the public sees from a company. so we are really going to help 
+                you and provide you effective and standard corporate brand guidelines .
+            </p>   
+        </div>
     </div>
 </template>
 <script>
@@ -32,10 +20,6 @@
       }
     }
 </script>
-<style scoped>
-    ins { 
-      text-decoration:none;
-      border-bottom: 3px solid rgb(193, 39, 45);
-      padding-bottom: 5px;
-    }
+<style  lang="scss" scoped>
+    @import "../../assets/style/components/design/secondPart.scss";
 </style>

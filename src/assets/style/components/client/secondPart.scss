@@ -1,0 +1,27 @@
+@media (max-width:320px) {
+    .imageContainer{
+        margin: 20px 20px 50px 20px;
+    }
+}
+@media (min-width:320px) {
+    .imageContainer{
+        margin: 20px 15px 50px 15px;
+    }
+}
+@media (min-width:768px) {
+    .imageContainer{
+        margin: 20px 24px 20px 24px;
+    }
+}
+@media (min-width:1024px) {
+    .imageContainer{
+        margin: 20px 20px 50px 20px;
+    }
+}
+@media (min-width:1440px) {
+   .imageContainer{
+       margin: 20px 60px 50px 60px;
+   }
+}
+
+

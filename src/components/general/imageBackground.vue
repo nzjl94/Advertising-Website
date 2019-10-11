@@ -3,8 +3,8 @@
         <b-jumbotron :style="jumbotron" class=" mb-0">
             <h2 :class="mHeader.classes">{{mHeader.text}}</h2>
             <h5 :class="sHeader.classes" v-if="sHeader.text.length>0">{{sHeader.text}}</h5>
-            <b-button pill variant="outline-light" class="px-5 mx-auto d-block" v-if="bHeader.length>0">
-                {{bHeader}}
+            <b-button pill variant="outline-light" :class="bHeader.classes" v-if="bHeader.text.length>0">
+                {{bHeader.text}}
             </b-button>
         </b-jumbotron>
   </div>
@@ -14,7 +14,7 @@
         props: {
             mHeader: {type: Object,default: () => ({text:"Our Clients",classes:""})},
             sHeader: {type: Object,default: () => ({text:"",classes:""})},
-            bHeader:{type: String,default:""},
+            bHeader:{type: Object,default: () => ({text:"",classes:""})},
             opacity: {type: String,default:"0.7"},
             height: {type: String,default:"230px"},
             imgUrL: {type: String,default:"print/1.png"}

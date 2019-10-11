@@ -1,0 +1,48 @@
+@media (max-width:320px) {
+    ::v-deep .mainText{
+        font-size:24px;
+    }
+    ::v-deep .subText{
+        font-size:18px;
+    }
+}
+@media (min-width:320px) {
+    ::v-deep .mainText{
+        font-size:24px;
+    }
+    ::v-deep .subText{
+        font-size:18px;
+    }
+}
+@media (min-width:768px) {
+    ::v-deep .mainText{
+        font-size:34px;
+    }
+    ::v-deep .subText{
+        font-size:30px;
+    }
+}
+@media (min-width:1024px) {
+    ::v-deep .mainText{
+        font-size:42px;
+    }
+    ::v-deep .subText{
+        font-size:34px;
+    }
+}
+@media (min-width:1440px) {
+    ::v-deep .mainText{
+        font-size:42px;
+    }
+    ::v-deep .subText{
+        font-size:34px;
+    }
+}
+::v-deep .mainText{
+    font-family: "Segoe UI",sans-serif;
+    margin-bottom: 20px;
+}
+::v-deep .subText{
+    font-family: sans-serif;
+}
+

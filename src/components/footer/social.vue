@@ -1,13 +1,17 @@
 <template>
-    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pb-4 pt-2" style="background-color:#c1272d;">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 socialContainer">
         <div class="row">
           <div class="d-none d-md-block col-md-3 col-lg-3 col-xl-3 text-white text-center">
               _______________
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <div class="row">
-                  <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2" v-for="(item, index) in icons_array" :key="index">
-                    <Icons :iconName="item" iconType="fab" iconStyle="color:white;border: solid 3px white;" iconClass="circle-icon logoStyle2" />
+                  <div :class="'col-4 col-sm-4  col-md-2 col-lg-2 col-xl-2 text-center '+(index<3?'smallMarginSocial':'')" v-for="(item, index) in icons_array" :key="index">
+                    <Icons 
+                      :iconName="item" 
+                      iconType="fab" 
+                      iconClass="circle-icon logoIcons fa-1x" 
+                    />
                   </div>
               </div>
           </div>
@@ -31,6 +35,6 @@
 
   }
 </script>
-<style scoped>
-    
+<style scoped lang="scss">
+    @import "../../assets/style/components/footer/social.scss";
 </style>

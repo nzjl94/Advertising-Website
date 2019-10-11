@@ -1,0 +1,106 @@
+@media (max-width:320px) {
+    .image5,.image4,.image3{
+        display: none;
+    }
+    .mainText{
+        text-align:center;
+        font-size:18px;
+        padding-top:20px;
+        padding-bottom:10px;
+        letter-spacing: 0.36px;
+        opacity: 1;
+        color: #E04343;
+        text-shadow: 2px 2px 4px #aaaaaa;
+    }
+    .imageContainer{
+        text-align: center;
+    }
+    .lineShow{
+        display: block;
+    }
+}
+@media (min-width:320px) {
+    .image5,.image4{
+        display: none;
+    }
+    .image3{
+        display: inline;
+    }
+    .mainText{
+        text-align:center;
+        font-size:18px;
+        padding-top:20px;
+        padding-bottom:10px;
+        letter-spacing: 0.36px;
+        opacity: 1;
+        color: #E04343;
+        text-shadow: 2px 2px 4px #aaaaaa;
+    }
+    .imageContainer{
+        text-align: center;
+    }
+    .lineShow{
+        display: block;
+    }
+}
+@media (min-width:768px) {
+    .image5{
+        display: none;
+    }
+    .image4{
+        display: inline;
+    }
+    .mainText{
+        text-align:center;
+        font-size:18px;
+        letter-spacing: 0.36px;
+        opacity: 1;
+        color: #E04343;
+        text-shadow: 3px 3px 6px #aaaaaa;
+    }
+    .imageContainer{
+        text-align: left;
+    }
+    .lineShow{
+        display: none;
+    }
+}
+@media (min-width:1024px) {
+    .mainText{
+        text-align:center;
+        font-size:22px;
+        letter-spacing: 0.36px;
+        opacity: 1;
+        color: #E04343;
+        text-shadow: 4px 4px 8px #aaaaaa;
+    }
+    .image5,.image4{
+        display: inline;
+    }
+    .imageContainer{
+        text-align: left;
+    }
+    .lineShow{
+        display: none;
+    }
+}
+@media (min-width:1440px) {
+    .mainText{
+        text-align:center;
+        font-size:24px;
+        letter-spacing: 0.36px;
+        opacity: 1;
+        color: #E04343;
+        text-shadow: 4px 4px 8px #aaaaaa;
+    }
+    .image5,.image4{
+        display: inline;
+    }
+    .imageContainer{
+        text-align: left;
+        padding-bottom:16px;
+    }
+    .lineShow{
+        display: none;
+    }
+}

@@ -1,22 +1,22 @@
 <template>
-    <div class="row">
-        <footer-logo></footer-logo>
-        <footer-social></footer-social>
-        <company-info></company-info>
-        <footer-container></footer-container>
+    <div class="row" style="background-color:#c1272d;">
+        <Logo></Logo>
+        <Social></Social>
+        <Info></Info>
+        <creater></creater>
     </div>
 </template>
 <script>
-    import companyInfo from "./companyInfo";
-    import footerSocial from "./footerSocial";
-    import footerLogo from "./footerLogo";
-    import footerContainer from "./footer";
+    import Info from "./info";
+    import Social from "./social";
+    import Logo from "./logo";
+    import creater from "./creater";
     export default {
       components:{
-        companyInfo,
-        footerSocial,
-        footerLogo,
-        footerContainer
+        Info,
+        Social,
+        Logo,
+        creater
       },
       
     }

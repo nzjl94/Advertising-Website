@@ -1,43 +1,40 @@
 <template>
-    <div class="row py-3 px-0 mx-0">
+    <div class="row">
         <containerCB 
             background="#c1272d" 
-            grid="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-white text-center"
+            grid="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-white"
+            height="371px"
         >
-            <h1 class="text-center text-white"><ins>Experience Matters</ins></h1>
-            <p class="text-center">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type 
-              specimen book. It has survived not only five centuries, but also the leap into 
-              electronic typesetting, remaining essentially unchanged. It was popularised in 
-              the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-              and more recently with desktop publishing software like Aldus PageMaker including
-              versions of Lorem Ipsum. It has survived not only five centuries, but also the leap into 
-              electronic typesetting, remaining essentially unchanged. It was popularised in 
-              the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-              and more recently with desktop publishing software like Aldus.
+            <h1 class="firstBlockHeader"><ins class="firstBlockHeaderIns">Experience Matters</ins></h1>
+            <p class="firstBlockMainText">
+              We’re not considered outdoor advertising experts for no reason. Our team of experienced
+              consultants, planners and buyers consolidate and analyze the myriad of available outdoor 
+              advertising units and out-of-home media options in each and every market to deliver 
+              customized campaigns. With over 8 years of experience in the outdoor advertising and media 
+              field.
             </p>
+            <div style="text-align:left;margin-left:30%;">
+              <p class="footerText">WE.</p>
+              <p class="footerText" style="margin-left:8%;">MAKE <span style="font-weight: bold;">YOUR BRAND</span></p>
+              <p class="footerText">TO STAND OUT</p>   
+            </div>
         </containerCB>
         <containerIB 
             imgUrL="about/2.png"
             grid="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
             opacity="0.8"
-            height=""
+            height="371px"
         >
-            <h1 class="text-center" style="color:gray;"><ins>Our Quality Standards</ins></h1>
-            <p class="text-center" style="color:gray;">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type 
-              specimen book. It has survived not only five centuries, but also the leap into 
-              electronic typesetting, remaining essentially unchanged. It was popularised in 
-              the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-              and more recently with desktop publishing software like Aldus PageMaker including
-              versions of Lorem Ipsum. It has survived not only five centuries, but also the leap into 
-              electronic typesetting, remaining essentially unchanged. It was popularised in 
-              the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-              and more recently with desktop publishing software like Aldus.
+            <h1 class="secondBlockHeader" ><ins class="secondBlockHeaderIns">Our Quality Standards</ins></h1>
+            <p class="secondBlockContentText">
+              To make our customer feel safe and sure with the quality of advertising we offer.
+              <ul class="dashed">
+                <li>We aim high to achieve the best possible campaign for our clients in this competitive market.</li>
+                <li>We utilize all talents of our associates to advertising for your business as easy as can be.</li>
+                <li>We are there for our clients in everything they need, with a creative staff and unmatched loyalty.</li>
+                <li>We get your company recognized with many different types of advertising outlets, from outdoor items, to media exposure. </li>
+                <li>We make our client our top priority, with their best interest at heart.</li>
+              </ul>
             </p>
         </containerIB>
     </div>
@@ -56,10 +53,5 @@
     }
 </script>
 <style scoped lang="scss">
-    ins { 
-      text-decoration:none;
-      border-bottom: 2px solid white;
-      padding-bottom: 5px;
-    }
       @import "../../assets/style/components/about/thirdPart.scss";
 </style>

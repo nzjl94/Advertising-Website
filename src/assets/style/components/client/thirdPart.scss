@@ -1,0 +1,130 @@
+@media (max-width:320px) {
+    .whiteMean3{
+        font-size:14px;
+    }
+    .redMean3{
+        font-size:14px;
+    }
+    .whiteMean2{
+        font-size:18px;
+        margin-bottom: 14px;
+        margin-top: 14px;
+    }
+    .redMean2{
+        font-size:18px;
+        margin-bottom: 14px;
+        margin-top: 14px;
+    }
+}
+@media (min-width:320px){
+    .whiteMean3{
+        font-size:14px;
+    }
+    .redMean3{
+        font-size:14px;
+    }
+    .whiteMean2{
+        font-size:18px;
+        margin-bottom: 14px;
+        margin-top: 14px;
+    }
+    .redMean2{
+        font-size:18px;
+        margin-bottom: 14px;
+        margin-top: 14px;
+    }
+}
+@media (min-width:768px) {
+    .whiteMean3{
+        font-size:16px;
+    }
+    .redMean3{
+        font-size:16px;
+    }
+    .whiteMean2{
+        font-size:20px;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+    .redMean2{
+        font-size:20px;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+}
+@media (min-width:1024px) {
+    .whiteMean3{
+        font-size:18px;
+    }
+    .redMean3{
+        font-size:18px;
+    }
+    .whiteMean2{
+        font-size:22px;
+        margin-bottom: 18px;
+        margin-top: 18px;
+    }
+    .redMean2{
+        font-size:22px;
+        margin-bottom: 18px;
+        margin-top: 18px;
+    }
+}
+@media (min-width:1440px) {
+    .whiteMean3{
+        font-size:20px;
+    }
+    .redMean3{
+        font-size:20px;
+    }
+    .whiteMean2{
+        font-size:24px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .redMean2{
+        font-size:24px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+.redMean1{
+    color:#C1272D;
+    text-align:center;
+    font-size:26px;
+    font-family: "Segoe UI",sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.redMean2{
+    color:#C1272D;
+    text-align:center;
+    font-family: sans-serif;
+}
+.redMean3{
+    color:black;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+.whiteMean1{    
+    color:white;
+    text-align:center;
+    font-size:26px;
+    font-family: "Segoe UI",sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.whiteMean2{
+    color:white;
+    text-align:center;
+    font-family: sans-serif;
+}
+.whiteMean3{
+    color:white;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+}

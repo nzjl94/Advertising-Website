@@ -2,7 +2,7 @@
     <div class="row">
         <image-background 
           imgUrL="about/3.png"
-          opacity="0.67"
+          opacity="0.85"
           :mHeader="mHeader"
           :sHeader="sHeader" 
         ></image-background>

@@ -1,7 +1,7 @@
 <template>
-  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 px-0 ">
+  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 px-0 mx-sm-0">
     <b-navbar toggleable="lg" class="py-0" style=" height: 60px;background:linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9))">
-      <b-navbar-brand to="/" v-if="homeToggle=='false'" class="mx-2">
+      <b-navbar-brand to="/" v-if="homeToggle=='false'">
         <Icons iconName="home" iconType="fa" iconClass="" />
       </b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

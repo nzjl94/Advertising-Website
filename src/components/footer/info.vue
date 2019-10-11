@@ -1,8 +1,8 @@
 <template>
-  <div style="background-color:#c1272d;" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-          <p class="text-white style1">info@city-light.com</p>
+          <p class="text-white emailInfo">info@city-light.com</p>
         </div>
       </div>
       <div class="row">
@@ -41,12 +41,9 @@
       </div>
   </div>
 </template>
-<style scoped>
-    .style1{
-      font-size:20px;
-      font-weight:bold;
-    }
-    .style2{
-      font-size:20px;
-    }
+<style scoped lang="scss">
+  @import "../../assets/style/components/footer/info.scss";
+  .style2{
+    font-size:20px;
+  }
 </style>

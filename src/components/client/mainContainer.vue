@@ -7,6 +7,7 @@
     </div>
 </template>
 <script>
+
     import firstPart  from './firstPart';
     import secondPart  from './secondPart';
     import thirdPart  from './thirdPart';
@@ -20,7 +21,6 @@
       }
     }
 </script>
-<style scoped>
 
-</style>
+
 

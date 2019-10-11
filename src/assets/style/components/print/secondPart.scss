@@ -1,0 +1,93 @@
+@media (max-width:320px) {
+    .mainContainer{
+        margin:20px 15px 10px 15px;
+    }
+    ::v-deep .headerText{
+        font-size:18px;
+        color:#C1272D;
+    }
+    ::v-deep .bodyText{
+        font-size:13px;
+    }
+}
+@media (min-width:320px){
+    .mainContainer{
+        margin:20px 15px 10px 15px;
+    }
+    ::v-deep .headerText{
+        font-size:18px;
+        color:#C1272D;
+    }
+    ::v-deep .bodyText{
+        font-size:13px;
+    }
+    .bottomText{
+        padding: 77px 66px 77px 66px;
+        background-color:#C1272D;
+        color:white;
+        font-size:40px;
+    }
+}
+@media (min-width:768px) {
+    .mainContainer{
+        margin:50px 24px 10px 24px;
+    }
+    ::v-deep .headerText{
+        font-size:18px;
+        color:#C1272D;
+    }
+    ::v-deep .bodyText{
+        font-size:16px;
+    }
+    .bottomText{
+        padding: 77px 80px 77px 80px;
+        background-color:#C1272D;
+        color:white;
+        font-size:40px;
+    }
+}
+@media (min-width:1024px) {
+    .mainContainer{
+        margin:30px 42px 10px 42px;
+    }
+    ::v-deep .headerText{
+        font-size:24px;
+        color:#C1272D;
+    }
+    ::v-deep .bodyText{
+        font-size:16px;
+    }
+    .bottomText{
+        padding: 88px 80px 88px 80px;
+        background-color:#C1272D;
+        color:white;
+        font-size:40px;
+    }
+}
+@media (min-width:1440px) {
+   .mainContainer{
+        margin:30px 60px 10px 60px;
+    }
+    ::v-deep .headerText{
+        font-size:24px;
+        color:#C1272D;
+    }
+    ::v-deep .bodyText{
+        font-size:16px;
+    }
+    .bottomText{
+        padding: 88px 135px 88px 135px;
+        background-color:#C1272D;
+        color:white;
+        font-size:40px;
+    }
+}
+::v-deep .headerText{
+    font-family: "Segoe UI",sans-serif;
+}
+::v-deep .bodyText{
+    font-family: "Segoe UI",sans-serif;
+}
+.bottomText{
+    font-family: "Segoe UI",sans-serif;
+}
