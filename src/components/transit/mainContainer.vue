@@ -1,17 +1,17 @@
 <template>
     <div>
         <tabs></tabs>
-        <contact-us></contact-us>
+        <second-part></second-part>
         <forms></forms>
     </div>
 </template>
 <script>
-    import contactUs  from '../transit/contactUs';
-    import forms      from '../transit/forms';
+    import secondPart  from '../transit/secondPart';
+    import forms      from '../transit/formPart';
     import tabs       from '../transit/tabs';
     export default {
       components:{
-        contactUs,
+        secondPart,
         forms,
         tabs
       }

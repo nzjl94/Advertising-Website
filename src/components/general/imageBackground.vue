@@ -1,11 +1,13 @@
 <template>
   <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0 m-0">
-        <b-jumbotron :style="jumbotron" class=" mb-0">
-            <h2 :class="mHeader.classes">{{mHeader.text}}</h2>
-            <h5 :class="sHeader.classes" v-if="sHeader.text.length>0">{{sHeader.text}}</h5>
-            <b-button pill variant="outline-light" :class="bHeader.classes" v-if="bHeader.text.length>0">
-                {{bHeader.text}}
-            </b-button>
+        <b-jumbotron :style="jumbotron" class="jumbotron-fluid mb-0">
+            <div class="container">
+                <h2 :class="mHeader.classes">{{mHeader.text}}</h2>
+                <h5 :class="sHeader.classes" v-if="sHeader.text.length>0">{{sHeader.text}}</h5>
+                <b-button pill variant="outline-light" :class="bHeader.classes" v-if="bHeader.text.length>0">
+                    {{bHeader.text}}
+                </b-button>
+            </div>
         </b-jumbotron>
   </div>
 </template>

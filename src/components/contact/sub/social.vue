@@ -1,50 +1,40 @@
 <template>
-    <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <h4><ins>Follow Us </ins>on Socials</h4>
-        </div>
-      </div>
-      <div class="row mt-3">
-        <div class="mx-2 px-0" v-for="(item, index) in icons_array" :key="index">
-          <Icons :iconName="item" iconType="fab" iconStyle="color:rgb(193, 39, 45);border: solid 3px rgb(193, 39, 45);" iconClass="circle-icon logoStyle1"/>
+  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+      <h4 class="contactMainStyle1"><ins>Follow Us </ins>on Socials</h4>
+      <div class="socialContainer">
+        <div class="subContainer" v-for="(item, index) in icons_array" :key="index">
+                  <Icons 
+                      :iconName="item" 
+                      iconType="fab" 
+                      iconClass="circle-icon logoIcons fa-1x"
+                  />
         </div>
       </div>
       <hr/>
-      <div class="row mt-3">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <h4>Call Now</h4>
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <div class="row">
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 my-3">
-              <Icons iconName="phone-alt" iconStyle="color:rgb(193, 39, 45);" iconClass="" />
-            </div>
-            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 float-left">
-              <h5 >+964 (0) 750 155 1212</h5>
-              <h5 >+964 (0) 770 155 1212</h5>
-            </div>
+      <div class="contactInfo">
+          <h4 class="contactMainStyle1">Call Now</h4>
+          <div class="phoneText" style="display: flex;justify-content: left;align-items: center;">
+              <div class="" style="margin-right:20px;">
+                  <Icons iconName="phone-alt" iconClass="fa-2x" />
+              </div>
+              <div class="">
+                  <h5 class="contactMainStyle2">+964 (0) 750 155 1212</h5>
+                  <h5 class="contactMainStyle2">+964 (0) 770 155 1212</h5>
+              </div>
           </div>
-        </div>
-      </div>
-      <hr/>
-      <div class="row mt-3">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <h4>Email Us</h4>
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <div class="row">
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
-              <Icons iconName="at" iconStyle="color:rgb(193, 39, 45);" iconClass="" />
+          <hr/>
+          <h4 class="contactMainStyle1">Email Us</h4>
+          <div class="emailText" style="display: flex;justify-content: left;align-items: center;">
+            <div class="" style="margin-right:20px;">
+                <Icons iconName="at" iconClass="fa-2x" />
             </div>
-            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 my-1">
-              <h5 class="float-left">citylight@info.com</h5>
-            </div>
+            <div class="">
+                <h5 class="contactMainStyle2">citylight@info.com</h5>
+            </div> 
           </div>
-        </div>
+          <hr/>
       </div>
-      <hr/>
-    </div>
+  </div>
 </template>
 <script>
   import Icons from '../../general/icons'
@@ -59,10 +49,6 @@
     }
   }
 </script>
-<style scoped>
-    ins { 
-      text-decoration:none;
-      border-bottom: 2px solid red;
-      padding-bottom: 5px;
-    }
+<style  lang="scss" scoped>
+  @import "../../../assets/style/components/contact/social.scss";
 </style>

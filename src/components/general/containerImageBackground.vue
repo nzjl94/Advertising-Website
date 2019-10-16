@@ -1,5 +1,5 @@
 <template>
-  <div :class="grid" :style="jumbotron">
+  <div :class="grid" :style="styles">
        <slot></slot>
   </div>
 </template>
@@ -13,7 +13,7 @@
         },
         data() {
             return {
-                jumbotron:{
+                styles:{
                     "background-image": `linear-gradient(rgba(0, 0, 0, ${this.opacity}), rgba(0, 0, 0, ${this.opacity})),url("${require('../../assets/image/'+this.imgUrL) }")` ,
                     "background-position":"center",
                     "background-size": "cover",

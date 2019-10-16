@@ -1,0 +1,119 @@
+@media (max-width:320px) {
+    ::v-deep .logoIcons{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border: solid 1.5px;
+    }
+    ::v-deep .fa-1x{
+        font-size:26px;
+    }
+    ::v-deep .topText{
+        font-size:13px;
+        margin: 16px 0px;
+    }
+    ::v-deep .bottomText{
+        font-size:13px;
+        margin: 16px 0px;
+    }
+}
+@media (min-width:320px) {
+    ::v-deep .logoIcons{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border: solid 1.5px;
+    }
+    ::v-deep .fa-1x{
+        font-size:26px;
+    }
+    ::v-deep .topText{
+        font-size:13px;
+        margin: 16px 0px;
+    }
+    ::v-deep .bottomText{
+        font-size:13px;
+        margin: 16px 0px;
+    }
+}
+@media (min-width:768px) {
+    ::v-deep .logoIcons{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        border: solid 2.5px;
+    }
+    ::v-deep .fa-1x{
+        font-size:34px;
+    }
+    ::v-deep .topText{
+        font-size:20px;
+        margin: 20px 0px;
+    }
+    ::v-deep .bottomText{
+        font-size:20px;
+        margin: 20px 0px;
+    }
+}
+@media (min-width:1024px) {
+    ::v-deep .logoIcons{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        border: solid 2.5px;
+    }
+    ::v-deep .fa-1x{
+        font-size:34px;
+    }
+    ::v-deep .topText{
+        font-size:20px;
+        margin: 20px 0px;
+    }
+    ::v-deep .bottomText{
+        font-size:20px;
+        margin: 20px 0px;
+    }
+}
+@media (min-width:1440px) {
+    ::v-deep .logoIcons{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        border: solid 2.5px;
+    }
+    ::v-deep .fa-1x{
+        font-size:34px;
+    }
+    ::v-deep .topText{
+        font-size:20px;
+        margin: 20px 0px;
+    }
+    ::v-deep .bottomText{
+        font-size:20px;
+        margin: 20px 0px;
+    }
+}
+::v-deep .circle-icon {
+    border-radius: 50%;
+    text-align: center; 
+    vertical-align: middle; 
+    border-color: white;
+    color:white; 
+}
+::v-deep .mainContainer {
+    display: flex;
+    justify-content: space-around;
+    height:188px;
+    align-items: center;
+}
+::v-deep .topText{
+    color:white;
+    font-family: sans-serif;
+}
+::v-deep .bottomText{
+    color:white;
+    font-family: sans-serif;
+}
+::v-deep .subContainer{
+    text-align:center;
+}

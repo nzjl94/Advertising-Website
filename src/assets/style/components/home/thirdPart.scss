@@ -1,0 +1,276 @@
+@media (max-width:320px) {
+    .firstColumn{
+        padding:5px 20px 15px 20px;
+    }
+    .secondColumn{
+        padding:5px 20px 15px 20px;
+    }
+    ::v-deep .topStyle{
+        position: relative;
+        bottom: -30px;
+        margin-top: -60px;
+        z-index: 1000;
+        color: black;
+        opacity: 0.8;
+        width: 100%;
+        height: 30px;
+        background-color: rgb(34, 34, 34);
+    }
+    ::v-deep .bottomStyle{
+        position: relative;
+        top: calc(100% - 30px);
+        z-index: 1000;color: white;
+        opacity: 0.8;
+        width: 100%;
+        height: 30px;
+        background-color: rgb(34, 34, 34);
+        bottom: 0px;
+    }
+    ::v-deep .firstSlideTopLift{
+        padding-left:10px;
+        font-size:16px;
+    }
+    ::v-deep .firstSlideTopRight{
+        padding-right:0px;
+        padding-left:10px;
+        font-size:14px;
+        display: block;
+    }
+    ::v-deep .firstSlideButtom{
+        padding-left:10px;
+        font-size:16px;
+        margin-bottom: 0px !important;
+    }
+}
+@media (min-width:320px) {
+    .firstColumn{
+        padding:5px 20px 15px 20px;
+    }
+    .secondColumn{
+        padding:5px 20px 15px 20px;
+    } 
+    ::v-deep .topStyle{
+        position: relative;
+        bottom: -55px;
+        margin-top: -110px;
+        z-index: 1000;
+        color: black;
+        opacity: 0.8;
+        width: 100%;
+        height: 55px;
+        background-color: rgb(34, 34, 34);
+    }
+    ::v-deep .bottomStyle{
+        position: relative;
+        top: calc(100% - 55px);
+        z-index: 1000;color: white;
+        opacity: 0.8;
+        width: 100%;
+        height: 55px;
+        background-color: rgb(34, 34, 34);
+        bottom: 0px;
+    }
+    ::v-deep .firstSlideTopLift{
+        padding-left:10px;
+        font-size:16px;
+    }
+    ::v-deep .firstSlideTopRight{
+        padding-right:0px;
+        padding-left:10px;
+        font-size:14px;
+        display: block;
+    }
+    ::v-deep .firstSlideButtom{
+        padding-left:10px;
+        font-size:16px;
+        margin-bottom: 0px !important;
+    }
+    ::v-deep .iconsContainer{
+        display: none;
+    }
+}
+@media (min-width:768px) {
+    .firstColumn{
+        padding:8px 20px 15px 20px;
+    }
+    .secondColumn{
+        padding:8px 20px 15px 20px;
+    } 
+    ::v-deep .topStyle{
+        position: relative;
+        bottom: -30px;
+        margin-top: -60px;
+        z-index: 1000;
+        color: black;
+        opacity: 0.8;
+        width: 100%;
+        height: 30px;
+        background-color: rgb(34, 34, 34);
+    }
+    ::v-deep .bottomStyle{
+        position: relative;
+        top: calc(100% - 30px);
+        z-index: 1000;color: white;
+        opacity: 0.8;
+        width: 100%;
+        height: 30px;
+        background-color: rgb(34, 34, 34);
+        bottom: 0px;
+    }
+    ::v-deep .firstSlideTopLift{
+        padding-left:10px;
+        font-size:16px;
+    }
+    ::v-deep .firstSlideTopRight{
+        padding-right:10px;
+        font-size:16px;
+        display: inline;
+    }
+    ::v-deep .firstSlideButtom{
+        padding-left:10px;
+        font-size:16px;
+        margin-bottom: 0px !important;
+    }
+    ::v-deep .iconsContainer{
+        position: absolute;
+        right: 0px;
+        display: inline;
+    }
+}
+@media (min-width:1024px) {
+    .firstColumn{
+        padding:8px 10px 15px 30px;
+    }
+    .secondColumn{
+        padding:8px 30px 15px 10px;
+    } 
+    ::v-deep .topStyle{
+        position: relative;
+        bottom: -30px;
+        margin-top: -60px;
+        z-index: 1000;
+        color: black;
+        opacity: 0.8;
+        width: 100%;
+        height: 30px;
+        background-color: rgb(34, 34, 34);
+    }
+    ::v-deep .bottomStyle{
+        position: relative;
+        top: calc(100% - 30px);
+        z-index: 1000;color: white;
+        opacity: 0.8;
+        width: 100%;
+        height: 30px;
+        background-color: rgb(34, 34, 34);
+        bottom: 0px;
+    }
+    ::v-deep .firstSlideTopLift{
+        padding-left:10px;
+        font-size:16px;
+    }
+    ::v-deep .firstSlideTopRight{
+        padding-right:10px;
+        font-size:16px;
+        float: right;
+    }
+    ::v-deep .firstSlideButtom{
+        padding-left:10px;
+        font-size:16px;
+        margin-bottom: 0px !important;
+    }
+    ::v-deep .iconsContainer{
+        position: absolute;
+        right: 0px;
+        display: inline;
+    }
+}
+@media (min-width:1440px) { 
+    .firstColumn{
+        padding:8px 10px 15px 30px;
+    }
+    .secondColumn{
+        padding:8px 30px 15px 10px;
+    } 
+    ::v-deep .topStyle{
+        position: relative;
+        bottom: -30px;
+        margin-top: -60px;
+        z-index: 1000;
+        color: black;
+        opacity: 0.8;
+        width: 100%;
+        height: 30px;
+        background-color: rgb(34, 34, 34);
+    }
+    ::v-deep .bottomStyle{
+        position: relative;
+        top: calc(100% - 30px);
+        z-index: 1000;color: white;
+        opacity: 0.8;
+        width: 100%;
+        height: 30px;
+        background-color: rgb(34, 34, 34);
+        bottom: 0px;
+    }
+    ::v-deep .firstSlideTopLift{
+        padding-left:20px;
+        font-size:16px;
+    }
+    ::v-deep .firstSlideTopRight{
+        padding-right:20px;
+        font-size:16px;
+        float: right;
+    }
+    ::v-deep .firstSlideButtom{
+        padding-left:20px;
+        font-size:16px;
+        margin-bottom: 0px !important;
+    }
+    ::v-deep .iconsContainer{
+        position: absolute;
+        right: 0px;
+        display: inline;
+    }
+}
+::v-deep .logoIcons{
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    border: solid 1px;
+}
+::v-deep .fa-1x{
+    font-size:9px;
+}
+::v-deep .circle-icon {
+    border-radius: 50%;
+    text-align: center; 
+    vertical-align: middle; 
+    border-color: white;
+    color:white; 
+}
+.video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+}
+.video-container video {
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+::v-deep .slideGeneral{
+    color:white;
+    font-family: "Segoe UI",sans-serif;
+}
+::v-deep .iconsItem{
+    padding-right: 20px;
+}

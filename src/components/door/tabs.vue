@@ -1,5 +1,5 @@
 <template>
-    <div class="row" style="background:#eee;">
+    <div class="row mx-3" style="background:#eee;">
         <tabT></tabT>
         <imageT></imageT>
     </div>

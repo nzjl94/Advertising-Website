@@ -1,18 +1,14 @@
 <template>
-    <div class="row">
+    <div class="row mainContainer">
       <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
-          <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <h3 class="text-center" >
-                  <ins>Get in Touch</ins>
-                </h3>
-                <p class="text-center">
-                  We are available 24/7 by fax, e-mail, or by phone. You can also use our quick contack form to ask a 
-                  question about our services and projects.
-                </p>
-            </div>
-            <contact-form></contact-form>
-          </div>
+          <h3 class="formheaderText" >
+            <ins>Get in Touch</ins>
+          </h3>
+          <p class="contactSubText">
+            We are available 24/7 by fax, e-mail, or by phone. You can also use our quick contack form to ask a 
+            question about our services and projects.
+          </p>
+          <contact-form></contact-form>
       </div>
       <social></social>
     </div>
@@ -31,10 +27,6 @@
       }
     }
 </script>
-<style scoped>
-    ins { 
-      text-decoration:none;
-      border-bottom: 2px solid red;
-      padding-bottom: 5px;
-    }
+<style  lang="scss" scoped>
+  @import "../../assets/style/components/contact/secondPart.scss";
 </style>

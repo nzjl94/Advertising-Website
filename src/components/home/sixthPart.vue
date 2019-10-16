@@ -1,44 +1,18 @@
 <template>
     <div class="row">
-       <containerIB imgUrL="home/5.png" height="188px">
-           <div class="row justify-content-center align-items-center h-100">
-              <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
-                <div class="text-center">
-                  <h3 class="text-white style1 pt-2">Projects</h3>
-                  <Icons iconName="sticky-note" iconType="far" iconStyle="color:white;border: solid 3px white;" iconSize="3x" iconClass="circle-icon logoStyle4"/>
-                  <h3 class="text-white pt-3 style1">1200</h3>
-                </div>
-              </div>
-              <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
-                <div class="text-center">
-                  <h3 class="text-white style1 pt-2">Rewards</h3>
-                  <Icons iconName="award" extraClass="" iconStyle="color:white;border: solid 3px white;" iconSize="3x" iconClass="circle-icon logoStyle4"/>
-                  <h3 class="text-white style1 pt-3">500</h3>
-                </div>
-              </div>
-              <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
-                <div class="text-center">
-                  <h3 class="text-white style1 pt-2">Branchs</h3>
-                  <Icons iconName="store" iconStyle="color:white;border: solid 3px white;" iconSize="3x" iconClass="circle-icon logoStyle4"/>
-                  <p class="text-white style1 pt-3">4</p>
-                </div>
-              </div>
-              <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
-                <div class="text-center">
-                  <h3 class="text-white style1 pt-2">Staff</h3>
-                  <Icons iconName="clipboard-list" iconStyle="color:white;border: solid 3px white;" iconSize="3x" iconClass="circle-icon logoStyle4"/>              
-                  <h3 class="text-white style1 pt-3">132</h3>
-                </div>
-              </div>
-              <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
-                <div class="text-center">
-                  <h3 class="text-white style1 pt-2">Happy Clients</h3>
-                  <Icons iconName="address-book" iconType="far" iconStyle="color:white;border: solid 3px white;" iconSize="3x" iconClass="circle-icon logoStyle4"/>
-                  <h3 class="text-white style1 pt-3">680</h3>
-                </div>
-              </div>
-           </div>
-          </containerIB>
+      <containerIB imgUrL="home/5.png" height="188px" opacity="0.2">
+         <div class="mainContainer">
+            <div class="subContainer" v-for="(item, index) in icons_array" :key="index">
+                <h3 :class="item[0].classes">{{item[0].text}}</h3>
+                <Icons 
+                    :iconName="item[2].iconName" 
+                    :iconType="item[2].type" 
+                    iconClass="circle-icon logoIcons fa-1x"
+                />
+                <h3 :class="item[1].classes">{{item[1].text}}</h3>
+            </div>
+         </div>
+      </containerIB>
     </div>
 </template>
 <script>
@@ -48,7 +22,29 @@
     export default {
       data() {
         return {
-          icons_array:["facebook-f","twitter","instagram","pinterest-p","youtube","vimeo-v"]
+          icons_array:[
+           [
+             {"text":"Projects","classes":"topText"},
+             {"text":"1200","classes":"bottomText"},
+             {"iconName":"sticky-note","classes":"","type":"far"}
+           ],[
+             {"text":"Rewards","classes":"topText"},
+             {"text":"500","classes":"bottomText"},
+             {"iconName":"award","classes":"","type":"fas"}
+           ],[
+             {"text":"Branchs","classes":"topText"},
+             {"text":"4","classes":"bottomText"},
+             {"iconName":"store","classes":"","type":"fas"}
+           ],[
+             {"text":"Staff","classes":"topText"},
+             {"text":"132","classes":"bottomText"},
+             {"iconName":"clipboard-list","classes":"","type":"fas"}
+           ],[
+             {"text":"Happy Clients","classes":"topText"},
+             {"text":"680","classes":"bottomText"},
+             {"iconName":"address-book","classes":"","type":"far"}
+           ],
+          ]
         }
       },
       components:{
@@ -57,8 +53,6 @@
       },
     }
 </script>
-<style scoped>
-   .style1{
-     font : 20px "SF Pro Display"
-   }
+<style  lang="scss" scoped>
+    @import "../../assets/style/components/home/sixthPart.scss";
 </style>

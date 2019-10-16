@@ -6,7 +6,7 @@
     </div>
 </template>
 <script>
-    import contactUs  from './contactUs';
+    import contactUs  from './secondPart';
     import tabs       from './tabs';
     export default {
       components:{

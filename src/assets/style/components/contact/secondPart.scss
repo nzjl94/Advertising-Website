@@ -1,0 +1,62 @@
+@media (max-width:320px) {
+    .formheaderText{
+        font-size:18px;
+    }
+    .contactSubText{
+        font-size:14px;
+    }
+}
+@media (min-width:320px) {
+    .formheaderText{
+        font-size:18px;
+    }
+    .contactSubText{
+        font-size:14px;
+        margin:0px 15px 0px 15px;
+    }
+}
+@media (min-width:768px) {
+    .formheaderText{
+        font-size:24px;
+    }
+    .contactSubText{
+        font-size:14px;
+        margin:0px 72px 0px 72px;
+
+    }
+}
+@media (min-width:1024px) {
+    .formheaderText{
+        font-size:24px;
+    }
+    .contactSubText{
+        font-size:14px;
+        margin:0px 60px 0px 30px;
+        padding:0px 0px 0px 0px;
+    }
+}
+@media (min-width:1440px) {
+    .formheaderText{
+        font-size:24px;
+    }
+    .contactSubText{
+        font-size:18px;
+        margin:0px 30px 0px 30px;
+        padding:0px 40px 0px 40px;
+    }
+}
+.formheaderText{
+    text-align:center;
+}
+.mainContainer{
+    margin-top: 20px;
+}
+.contactSubText{
+    text-align:center;
+    font-family: "Segoe UI",sans-serif;
+}
+::v-deep  ins { 
+    text-decoration:none;
+    border-bottom: 3px solid #C1272D;
+    padding-bottom: 5px;
+}

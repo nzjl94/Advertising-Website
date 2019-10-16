@@ -1,16 +1,17 @@
 <template>
-    <div class="row " style="margin-top:10px;">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  p-0 m-0 pr-1" >
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 firstColumn">
           <first-style 
               showIcon="true"
-              :design='{"bottom":"0px","left":"0px","color":"white"}' 
-              :text1='{"class":"text-white text-left pl-3 mb-0","style":"font-size:14px;","text":"See the Image  in 360 Panorama"}' 
+              design='bottomStyle bottomStyleX' 
+              :text1='{"class":"slideGeneral firstSlideButtom","text":"See the Image  in 360 Panorama"}' 
+              :icons='{"classItem":"iconsItem","classContainer":"iconsContainer","show":true}' 
           ></first-style>
           <first-style 
               showIcon="true"
-              :design='{"top":"3px;","left":"0px;","color":"black"}' 
-              :text1="{'class':'text-white text-left pl-3 mb-0','style':'font-size:16px;','text':'New Project'}" 
-              :text2="{'class':'text-white mr-2 mb-0','style':'font-size:16px;float:right;','text':'Coca Cola Poster - Erbil 100 M St'}"
+              design='topStyle topStyleX' 
+              :text1="{'class':'slideGeneral firstSlideTopLift','text':'New Project'}" 
+              :text2="{'class':'slideGeneral firstSlideTopRight','text':'Coca Cola Poster - Erbil 100 M St'}"
           ></first-style>
           <b-carousel id="carousel-1" :interval="4000" controls background="white" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
             <b-carousel-slide class="w-100">
@@ -21,24 +22,18 @@
             </b-carousel-slide>
           </b-carousel>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  p-0 m-0 pl-1">
-          <first-style 
-              :design='{"bottom":"0px","left":"0px","color":"white"}' 
-              :text1="{'class':'text-white text-left pl-3 mb-0','style':'font-size:14px;','text':'See the Image  in 360 Panorama'}" 
-          ></first-style>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 secondColumn" >
           <first-style 
               showIcon="true"
-              :design='{"top":"0px;","left":"0px;","color":"black"}' 
-              :text1="{'class':'text-white text-left pl-3 pl-lg-0 mb-0','style':'font-size:16px;','text':'New Project'}" 
-              :text2="{'class':'text-white mr-2 mb-0','style':'font-size:16px;float:right;','text':'Coca Cola Poster - Erbil 100 M St'}"
+              design='topStyleVideo topStyleVideoX' 
+              :text1="{'class':'slideGeneral firstSlideTopLift','text':'New Project'}" 
+              :text2="{'class':'slideGeneral firstSlideTopRight','text':'Coca Cola Poster - Erbil 100 M St'}"
           ></first-style>
-
           <div class="video-container">
             <video  loop controls>
               <source src="../../assets/video/1.mp4" type="video/mp4">
             </video>
           </div>
-          
         </div>
     </div>
 </template>
@@ -64,23 +59,6 @@
       }
     }
 </script>
-<style scoped>
-  .video-container {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%; 
-    overflow: hidden;
-  }
-  .video-container video {
-      min-width: 100%; 
-      min-height: 100%; 
-      width: auto;
-      height: auto;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-  }
+<style  lang="scss" scoped>
+    @import "../../assets/style/components/home/secondPart.scss";
 </style>
