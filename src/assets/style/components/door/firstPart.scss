@@ -1,0 +1,101 @@
+@media (max-width:320px) {
+    .imageStyle{
+        height: 80px;
+    }
+    .mainContainer{
+        flex-flow: column;
+        padding:10px 10px;
+    }
+    .listContainerStyle{
+        height:358px; 
+        overflow-y: scroll;
+    }
+    .listPartHeader{
+        font-size: 12px;
+    }
+}
+@media (min-width:320px) {
+    .imageStyle{
+        height: 180px;
+    }
+    .mainContainer{
+        flex-flow: column;
+        padding:10px 10px;
+    }
+    .listContainerStyle{
+        height:358px; 
+        overflow-y: scroll;
+    }
+    .listPartHeader{
+        font-size: 16px;
+    }
+}
+@media (min-width:768px) {
+    .imageStyle{
+        height: 358px;
+    }
+    .mainContainer{
+        flex-flow: row;
+        padding:10px 10px 20px 10px;
+
+    }
+    .listContainerStyle{
+        height:310px; 
+        overflow-y: scroll;
+    }
+    .listPartHeader{
+        font-size: 18px;
+    }
+}
+@media (min-width:1024px) {
+    .imageStyle{
+        height: 401px;
+    }
+    .listContainerStyle{
+        height:359px; 
+        overflow-y: scroll;
+    }
+    .listPartHeader{
+        font-size: 20px;
+    }
+    .mainContainer{
+        padding: 10px 20px 20px 10px;
+    }
+}
+@media (min-width:1440px) {
+    .imageStyle{
+        height: 443px;
+    }
+    .listContainerStyle{
+        height:401px; 
+        overflow-y: scroll;
+    }
+    .listPartHeader{
+        font-size: 22px;
+    }
+    .mainContainer{
+        padding: 10px 20px 20px 10px;
+    }
+}
+.mainContainer{
+    display: flex;
+    flex-grow: 1;
+}
+.subContainer1, .subContainer2{
+    flex-grow:1;
+}
+.imageStyle{
+    width: 100%;
+}
+.listContainerStyle{
+    
+}
+.listPartHeader{
+    font-weight: bold;
+}
+.requestButtonStyle{
+    margin-top:10px;
+}
+*{
+    font-family: "Segoe UI",sans-serif;
+}

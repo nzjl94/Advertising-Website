@@ -1,10 +1,10 @@
 <template>
-  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 px-0">
     <div class="row">
-      <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 logoImageContainer">
+      <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 px-0 logoImageContainer">
           <img :src="require(`../../assets/image/logo/${logo}`)" class="logoImage">
       </div>
-      <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 my-auto allIconsContainer">
+      <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 pl-0 my-auto allIconsContainer">
         <div class="float-right">
           <h1 class="logoMainText" :style="'color:'+color">
             <span class="headerSpan">Light Up </span>

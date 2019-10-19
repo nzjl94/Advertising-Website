@@ -69,6 +69,9 @@
     ::v-deep .fa-1x{
         font-size:14px;
     }
+    .allIconsContainer{
+        padding-right: 24px;
+    }
 }
 @media (min-width:1024px) {
     .logoImage{
@@ -94,6 +97,9 @@
     .iconSpan{
         margin-right: 9px;
     }
+    .allIconsContainer{
+        padding-right: 42px;
+    }
 }
 @media (min-width:1440px) {
     .logoImage{
@@ -118,7 +124,9 @@
     ::v-deep .fa-1x{
         font-size:22px;
     }
-    
+    .allIconsContainer{
+        padding-right: 60px;
+    }
 }
 
 ::v-deep .circle-icon {

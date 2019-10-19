@@ -1,20 +1,88 @@
 @media (max-width:320px) {
- 
+    .socialContainer{
+        justify-content: center;
+        margin: {
+            top:0px;
+            bottom: 0px;;
+        }
+        padding: {
+            right:15px;
+        }
+    }
+    .subContainer{
+        flex-basis: 70px;
+        margin: {
+            bottom: 10px;
+        }
+    }
+    .headerText{
+        margin:10px 0px 20px 0px;
+    }
 }
 @media (min-width:320px) {
- 
+    .socialContainer{
+        justify-content: center;
+        margin: {
+            top:0px;
+            bottom: 0px;;
+        }
+        padding: {
+            right:15px;
+        }
+    }
+    .subContainer{
+        flex-basis: 70px;
+        margin: {
+            bottom: 10px;
+        }
+    }
+    .headerText{
+        margin:10px 0px 20px 0px;
+    }
 }
 @media (min-width:768px) {
-   
+    .socialContainer{
+        margin: {
+            top:10px;
+            bottom: 10px;;
+        }
+        padding: {
+            right:24px;
+        }
+        justify-content: space-between;
+    }
+    .subContainer{
+        flex-basis: 50px;
+        margin: {
+            bottom: 0px;
+        }
+    }
+    .headerText{
+        margin:10px 0px 20px 0px;
+    }
 }
 @media (min-width:1024px) {
     .socialContainer{
-        margin:20px 0px 38px 0px;
+        justify-content: space-between;
+        margin: {
+            top:15px;
+            bottom: 15px;;
+        }
+        padding: {
+            right:42px;
+        }
     }
 }
 @media (min-width:1440px) {
     .socialContainer{
-        margin:20px 0px 38px 0px;
+        margin: {
+            top:15px;
+            bottom: 15px;;
+        }
+        padding: {
+            right:60px;
+        }
+        justify-content:space-between;
     }
 }
 .contactMainStyle1{
@@ -39,13 +107,12 @@
     border-color: #C1272D;
     color:#C1272D; 
 }
-::v-deep .socialContainer {
+ .socialContainer {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
     width:100% !important;
 }
-::v-deep .subContainer{
+.subContainer{
     text-align:center;
 }
 ::v-deep .fa-2x{

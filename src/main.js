@@ -7,10 +7,14 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import "@/assets/style/global.css"
 
-
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 
+Vue.use({
+  install: function(Vue, options){
+      Vue.prototype.$refs = require('jquery'); 
+  }
+})
 new Vue({
   router,
   store,

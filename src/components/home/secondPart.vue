@@ -29,8 +29,8 @@
               :text1="{'class':'slideGeneral firstSlideTopLift','text':'New Project'}" 
               :text2="{'class':'slideGeneral firstSlideTopRight','text':'Coca Cola Poster - Erbil 100 M St'}"
           ></first-style>
-          <div class="video-container">
-            <video  loop controls>
+          <div class="video-container h-100">
+            <video  loop controls id="video-bg">
               <source src="../../assets/video/1.mp4" type="video/mp4">
             </video>
           </div>

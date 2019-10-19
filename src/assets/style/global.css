@@ -1,5 +1,9 @@
 *{
     font-family: "SF Pro Display" ;
 }
+.row {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
 /*font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"*/

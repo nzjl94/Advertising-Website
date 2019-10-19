@@ -1,6 +1,6 @@
 <template>
   <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-      <h4 class="contactMainStyle1"><ins>Follow Us </ins>on Socials</h4>
+      <h4 class="contactMainStyle1 headerText"><ins>Follow Us </ins>on Socials</h4>
       <div class="socialContainer">
         <div class="subContainer" v-for="(item, index) in icons_array" :key="index">
                   <Icons 
