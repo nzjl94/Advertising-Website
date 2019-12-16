@@ -1,3 +1,5 @@
+@import "../general/default.scss";
+
 @media (max-width:320px) {
     ::v-deep .mainText{
         font-size:24px;
@@ -39,10 +41,11 @@
     }
 }
 ::v-deep .mainText{
-    font-family: "Segoe UI",sans-serif;
+    font-family: $font-family-style1;
     margin-bottom: 20px;
 }
 ::v-deep .subText{
-    font-family: sans-serif;
+    font-family: $font-family-style1;
 }
+
 

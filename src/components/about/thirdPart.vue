@@ -1,9 +1,8 @@
 <template>
     <div class="row">
         <containerCB 
-            background="#c1272d" 
-            grid="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-white"
-            height="371px"
+          grid="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
+          classes="backgroundContainer backgroundColorContainer"
         >
             <h1 class="firstBlockHeader"><ins class="firstBlockHeaderIns">Experience Matters</ins></h1>
             <p class="firstBlockMainText">
@@ -23,7 +22,7 @@
             imgUrL="about/2.png"
             grid="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"
             opacity="0.8"
-            height="371px"
+            classes="backgroundContainer"
         >
             <h1 class="secondBlockHeader" ><ins class="secondBlockHeaderIns">Our Quality Standards</ins></h1>
             <p class="secondBlockContentText">

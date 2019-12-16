@@ -8,7 +8,7 @@
             <containerIB 
                 imgUrL="home/3.png"
                 grid="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 px-0"
-                height="740px"
+                classes="containerClasses"
                 opacity="0.4"
             >
               <logo color="white"></logo>

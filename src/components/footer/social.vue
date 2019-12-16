@@ -26,7 +26,7 @@
   export default {
     data() {
       return {
-        icons_array:["facebook-f","twitter","instagram","pinterest-p","youtube","vimeo-v"]
+        icons_array:["facebook-f","instagram","pinterest-p","youtube","vimeo-v"]
       }
     },
     components:{

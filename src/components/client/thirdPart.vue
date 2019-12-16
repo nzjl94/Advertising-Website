@@ -1,20 +1,22 @@
 <template>
     <div class="row">
-        <containerCB background="white">
+        <containerCB classes="generalMainContainer leftMainContainer">
             <h1 class="redMean1">OUR MISSION</h1>
             <img src="../../assets/image/home/8.png" class="mx-auto d-block">
             <h2 class="redMean2">WE ARE,</h2>
-            <p class="redMean3">
-              Nunc odio eros, lacinia ut velit ac, semper semper dolor. Vestibulum porttitor dolor non ipsum laoreet, vel bibendum lorem 
-              facilisis. Sed hendrerit, erat ac varius hendrerit, elit erat interdum mi, in dictum diam augue sed neque. Pellentesque a ante
-               accumsan sem placerat egestas sed vel nisi. Sed a nulla pharetra, dignissim orci efficitur, sollicitudin orci.
+            <p class="redMean3 generalMain3">
+              Nunc odio eros, lacinia ut velit ac, semper semper dolor. Vestibulum porttitor dolor non ipsum laoreet, 
+              vel bibendum lorem facilisis. Sed hendrerit, erat ac varius hendrerit, 
+              elit erat interdum mi, in dictum diam augue sed neque.
+              Pellentesque a ante accumsan sem placerat egestas sed vel nisi. 
+              Sed a nulla pharetra, dignissim orci efficitur, sollicitudin orci.
             </p>
         </containerCB>
-        <containerCB background="#c1272d" >
+        <containerCB classes="generalMainContainer rightMainContainer">
             <h1 class="whiteMean1">OUR VISION</h1>
             <img src="../../assets/image/home/7.png" class="mx-auto d-block">
             <h2 class="whiteMean2">WE ARE,</h2>
-            <p class="whiteMean3">
+            <p class="whiteMean3 generalMain3">
               Nunc odio eros, lacinia ut velit ac, semper semper dolor. Vestibulum porttitor dolor non ipsum laoreet, vel bibendum lorem 
               facilisis. Sed hendrerit, erat ac varius hendrerit, elit erat interdum mi, in dictum diam augue sed neque. Pellentesque a ante
                accumsan sem placerat egestas sed vel nisi. Sed a nulla pharetra, dignissim orci efficitur, sollicitudin orci.

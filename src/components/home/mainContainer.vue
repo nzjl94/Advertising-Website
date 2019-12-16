@@ -1,10 +1,10 @@
 <template>
-    <div>
+    <div class="">
         <second-part></second-part>
         <third-part></third-part>
         <fourth-part></fourth-part>
         <fifth-part></fifth-part>
-        <sixth-part></sixth-part>
+       <!-- <sixth-part></sixth-part> -->
     </div>
 </template>
 <script>
@@ -12,18 +12,17 @@
     import thirdPart  from './thirdPart';
     import fourthPart  from '../client/thirdPart';
     import fifthPart  from './fifthPart';
-    import sixthPart  from './sixthPart';
+   // import sixthPart  from './sixthPart';
     export default {
       components:{
         secondPart,
         thirdPart,
         fourthPart,
         fifthPart,
-        sixthPart
+       // sixthPart
       },
       
     }
 </script>
 <style scoped>
-
 </style>

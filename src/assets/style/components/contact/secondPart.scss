@@ -12,7 +12,7 @@
     }
     .contactSubText{
         font-size:14px;
-        margin:0px 15px 0px 15px;
+        margin:10px 15px 10px 15px;
     }
 }
 @media (min-width:768px) {
@@ -53,10 +53,12 @@
 }
 .contactSubText{
     text-align:center;
-    font-family: "Segoe UI",sans-serif;
+    opacity: 0.5;
+    font-family: sans-serif;
 }
 ::v-deep  ins { 
     text-decoration:none;
     border-bottom: 3px solid #C1272D;
     padding-bottom: 5px;
+    font-family: sans-serif;
 }

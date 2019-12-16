@@ -1,3 +1,67 @@
+$generalStyle: (
+    ".containerClasses": (
+        xs:(
+            height:470px
+        ),
+        sm:(
+            height:470px
+        ),
+        md:(
+            height:740px
+        ),
+        lg:(
+            height:740px
+        ),
+        xl:(
+            height:740px
+        )
+    )
+);
+@each $className, $classStyle in $generalStyle {
+    @each $widthKey, $widthStyle in $classStyle {
+        @if $widthKey == "xs" {
+            @media (max-width:320px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "sm" {
+            @media (min-width:320px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "md" {
+            @media (min-width:768px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "lg" {
+            @media (min-width:1024px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        }@else if $widthKey == "xl" {
+            @media (min-width:1440px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        }
+    }
+}
 @media (max-width:320px) {
     .blackSubText{
         font-size: 14px;

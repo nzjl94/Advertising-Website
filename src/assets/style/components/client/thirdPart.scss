@@ -1,28 +1,91 @@
-@media (max-width:320px) {
-    .whiteMean3{
-        font-size:14px;
-    }
-    .redMean3{
-        font-size:14px;
-    }
-    .whiteMean2{
-        font-size:18px;
-        margin-bottom: 14px;
-        margin-top: 14px;
-    }
-    .redMean2{
-        font-size:18px;
-        margin-bottom: 14px;
-        margin-top: 14px;
+$generalStyle: (
+    ".generalMainContainer": (
+        xs:(
+            height:459px,
+        ),
+        sm:(
+            height:459px,
+        ),
+        md:(
+            height:449px,
+        ),
+        lg:(
+            height:429px,
+        ),
+        xl:(
+            height:429px,
+        )
+    ),
+    ".generalMain3": (
+        xs:(
+            font-size:16px,
+            margin:10px 10px 10px 10px
+        ),
+        sm:(
+            font-size:16px,
+            margin:10px 10px 10px 10px
+        ),
+        md:(
+            font-size:16px,
+            margin:15px 7px 15px 7px,
+        ),
+        lg:(
+            font-size:16px,
+            margin:20px 20px 20px 20px
+        ),
+        xl:(
+            font-size:18px,
+            margin:20px 20px 20px 20px
+        )
+    )
+);
+@each $className, $classStyle in $generalStyle {
+    @each $widthKey, $widthStyle in $classStyle {
+        @if $widthKey == "xs" {
+            @media (max-width:320px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "sm" {
+            @media (min-width:320px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "md" {
+            @media (min-width:768px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "lg" {
+            @media (min-width:1024px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        }@else if $widthKey == "xl" {
+            @media (min-width:1440px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        }
     }
 }
+
 @media (min-width:320px){
-    .whiteMean3{
-        font-size:14px;
-    }
-    .redMean3{
-        font-size:14px;
-    }
     .whiteMean2{
         font-size:18px;
         margin-bottom: 14px;
@@ -35,12 +98,6 @@
     }
 }
 @media (min-width:768px) {
-    .whiteMean3{
-        font-size:16px;
-    }
-    .redMean3{
-        font-size:16px;
-    }
     .whiteMean2{
         font-size:20px;
         margin-bottom: 16px;
@@ -53,12 +110,6 @@
     }
 }
 @media (min-width:1024px) {
-    .whiteMean3{
-        font-size:18px;
-    }
-    .redMean3{
-        font-size:18px;
-    }
     .whiteMean2{
         font-size:22px;
         margin-bottom: 18px;
@@ -71,12 +122,6 @@
     }
 }
 @media (min-width:1440px) {
-    .whiteMean3{
-        font-size:20px;
-    }
-    .redMean3{
-        font-size:20px;
-    }
     .whiteMean2{
         font-size:24px;
         margin-bottom: 20px;
@@ -101,13 +146,7 @@
     text-align:center;
     font-family: sans-serif;
 }
-.redMean3{
-    color:black;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: justify;
-    font-family: sans-serif;
-}
+
 .whiteMean1{    
     color:white;
     text-align:center;
@@ -120,11 +159,23 @@
     color:white;
     text-align:center;
     font-family: sans-serif;
+    opacity: 0.6;
+}
+.leftMainContainer{
+    background: #FFFFFF;
+}
+.rightMainContainer{
+    background: #C1272D;
+}
+.generalMain3{
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 1.15;
+    letter-spacing: 0.32px;
+}
+.redMean3{
+    color:black;
 }
 .whiteMean3{
     color:white;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: justify;
-    font-family: sans-serif;
 }

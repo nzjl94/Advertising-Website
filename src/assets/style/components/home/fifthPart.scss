@@ -1,125 +1,159 @@
-@media (max-width:320px) {
-    .image5,.image4,.image3{
-        display: none;
-    }
-    .mainText{
-        text-align:center;
-        font-size:18px;
-        padding-top:20px;
-        padding-bottom:10px;
-        letter-spacing: 0.36px;
-        opacity: 1;
-        color: #E04343;
-        text-shadow: 2px 2px 4px #aaaaaa;
-    }
-    .imageContainer{
-        text-align: center;
-        padding: {
-            top:15px;
-            bottom:15px;
+$generalStyle: (
+    ".imageSlide img": (
+        xs:(
+            height:30px,
+            width:89px
+        ),
+        sm:(
+            height:30px,
+            width:89px
+        ),
+        md:(
+            height:40px,
+            width:131px
+        ),
+        lg:(
+            height:40px,
+            width:131px
+        ),
+        xl:(
+            height:40px,
+            width:131px
+        )
+    ),
+    ".slideImageContainer": (
+        xs:(
+            height:60px,
+            flex-basis:100%,
+            padding-left:30px,
+        ),
+        sm:(
+            height:60px,
+            flex-basis:100%,
+            padding-left:30px,
+        ),
+        md:(
+            height:80px,
+            flex-basis:75%,
+            padding-left:15px,
+        ),
+        lg:(
+            height:109px,
+            flex-basis:75%,
+            padding-left:20px,
+        ),
+        xl:(
+            height:130px,
+            flex-basis:75%,
+            padding-left:20px
+        )
+    ),
+    ".slideTextContainer": (
+        xs:(
+            flex-basis:100%
+        ),
+        sm:(
+            flex-basis:100%
+        ),
+        md:(
+            flex-basis:25%
+        ),
+        lg:(
+            flex-basis:25%
+        ),
+        xl:(
+            flex-basis:25%
+        )
+    ),
+    ".mainText": (
+        xs:(
+            font-size:18px,
+            padding-top:20px,
+            padding-bottom:20px
+        ),
+        sm:(
+            font-size:18px,
+            padding-top:20px,
+            padding-bottom:20px
+        ),
+        md:(
+            font-size:18px
+        ),
+        lg:(
+            font-size:22px
+        ),
+        xl:(
+            font-size:24px
+        )
+    )
+);
+@each $className, $classStyle in $generalStyle {
+    @each $widthKey, $widthStyle in $classStyle {
+        @if $widthKey == "xs" {
+            @media (max-width:320px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "sm" {
+            @media (min-width:320px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "md" {
+            @media (min-width:768px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "lg" {
+            @media (min-width:1024px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        }@else if $widthKey == "xl" {
+            @media (min-width:1440px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
         }
-    }
-    .lineShow{
-        display: block;
     }
 }
-@media (min-width:320px) {
-    .image5,.image4{
-        display: none;
+.sliderMainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    .slideImageContainer{  
+        display: flex;   
+        justify-content: end;
+        align-items: center;
     }
-    .image3{
-        display: inline;
-    }
-    .mainText{
-        text-align:center;
-        font-size:18px;
-        padding-top:20px;
-        padding-bottom:10px;
-        letter-spacing: 0.36px;
-        opacity: 1;
-        color: #E04343;
-        text-shadow: 2px 2px 4px #aaaaaa;
-    }
-    .imageContainer{
-        text-align: center;
-        padding: {
-            top:15px;
-            bottom:15px;
+    .slideTextContainer{
+        box-shadow: 0px 3px 6px #00000029;
+        //to make element centerlize in both vertical and horizontally
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        .mainText{
+            font-family: "Segoe UI",sans-serif;
+            text-align:center;
+            color: #E04343;
         }
-    }
-    .lineShow{
-        display: block;
     }
 }
-@media (min-width:768px) {
-    .image5{
-        display: none;
-    }
-    .image4{
-        display: inline;
-    }
-    .mainText{
-        text-align:center;
-        font-size:18px;
-        letter-spacing: 0.36px;
-        opacity: 1;
-        color: #E04343;
-        text-shadow: 3px 3px 6px #aaaaaa;
-    }
-    .imageContainer{
-        text-align: center;
-        padding: {
-            top:15px;
-            bottom:15px;
-        }
-    }
-    .lineShow{
-        display: none;
-    }
-}
-@media (min-width:1024px) {
-    .mainText{
-        text-align:center;
-        font-size:22px;
-        letter-spacing: 0.36px;
-        opacity: 1;
-        color: #E04343;
-        text-shadow: 4px 4px 8px #aaaaaa;
-    }
-    .image5,.image4{
-        display: inline;
-    }
-    .imageContainer{
-        text-align: left;
-        padding: {
-            top:24px;
-            bottom:24px;
-        }
-    }
-    .lineShow{
-        display: none;
-    }
-}
-@media (min-width:1440px) {
-    .mainText{
-        text-align:center;
-        font-size:24px;
-        letter-spacing: 0.36px;
-        opacity: 1;
-        color: #E04343;
-        text-shadow: 4px 4px 8px #aaaaaa;
-    }
-    .image5,.image4{
-        display: inline;
-    }
-    .imageContainer{
-        text-align: left;
-        padding: {
-            top:42px;
-            bottom:42px;
-        }
-    }
-    .lineShow{
-        display: none;
-    }
+*{
+    min-height: 0;
+    min-width: 0;
 }

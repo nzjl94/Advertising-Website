@@ -1,3 +1,69 @@
+@import "../general/default.scss";
+$generalStyle: (
+    ".aa": (
+        xs:(
+            height:262px
+        ),
+        sm:(
+            height:262px
+        ),
+        md:(
+            height:188px
+        ),
+        lg:(
+            height:188px
+        ),
+        xl:(
+            height:188px
+        )
+    )
+);
+@each $className, $classStyle in $generalStyle {
+    @each $widthKey, $widthStyle in $classStyle {
+        @if $widthKey == "xs" {
+            @media (max-width:320px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "sm" {
+            @media (min-width:320px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "md" {
+            @media (min-width:768px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "lg" {
+            @media (min-width:1024px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        }@else if $widthKey == "xl" {
+            @media (min-width:1440px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .infoCreater{
     font-size:20px;
 }

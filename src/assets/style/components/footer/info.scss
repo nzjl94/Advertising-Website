@@ -1,17 +1,129 @@
-@media (max-width:320px) {
-  
+@import "../general/default.scss";
+$generalStyle: (
+    ".mainContainer": (
+        xs:(
+          padding:0px 45px
+        ),
+        sm:(
+          padding:0px 45px
+        ),
+        md:(
+          padding:0px 26px
+        ),
+        lg:(
+          padding:0px 44px
+        ),
+        xl:(
+          padding:0px 60px
+        )
+    ),
+    ".subContainer": (
+      xs:(
+        flex: 100%
+      ),
+      sm:(
+        flex: 100%
+      ),
+      md:(
+        flex: 50%
+      ),
+      lg:(
+        flex: 33.3%
+      ),
+      xl:(
+        flex: 33.3%
+      )
+    ),
+    ".addressNameStyle": (
+      xs:(
+      ),
+      sm:(
+      ),
+      md:(
+      ),
+      lg:(
+      ),
+      xl:(
+        width:300px,
+        height:38px,
+        margin:10px 0px 13px 15px
+      )
+    ),
+    ".phoneNumberStyle": (
+      xs:(
+      ),
+      sm:(
+      ),
+      md:(
+      ),
+      lg:(
+      ),
+      xl:(
+        margin:0px 0px 0px 15px
+      )
+    ),
+    ".cityNameStyle": (
+      xs:(
+      ),
+      sm:(
+      ),
+      md:(
+      ),
+      lg:(
+      ),
+      xl:(
+      )
+    )
+);
+@each $className, $classStyle in $generalStyle {
+    @each $widthKey, $widthStyle in $classStyle {
+        @if $widthKey == "xs" {
+            @media (max-width:320px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "sm" {
+            @media (min-width:320px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "md" {
+            @media (min-width:768px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        } @else if $widthKey == "lg" {
+            @media (min-width:1024px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        }@else if $widthKey == "xl" {
+            @media (min-width:1440px) {
+                #{$className}{
+                    @each $key, $value in $widthStyle {
+                        #{$key}:$value;
+                    }
+                }
+            }
+        }
+    }
 }
-@media (min-width:320px) {
-    
-}
-@media (min-width:768px) {
-  
-}
-@media (min-width:1024px) {
-    
-}
-@media (min-width:1440px) {
-    
+
+.mainContainer{
+  display: flex;
+  flex-wrap: wrap;
 }
 .emailInfo{
     font-size:20px;
@@ -22,30 +134,24 @@
     }
 }
 .cityNameStyle{
-  color:white;
+  text-align:left;
+  color:$color-style2;
   font: {
     weight:bold;
-    family:"Segoe UI",sans-serif;
+    family:$font-family-style1;
     size:20px;
   } 
-  margin: {
-    top:10px;
-    bottom: 5px;
-  }
 }
 .addressNameStyle{
-  color:white;
-  margin: {
-    top:5px;
-  }
+  color:$color-style2;
   font: {
-    family:"Segoe UI",sans-serif;
+    family:$font-family-style1;
     size:16px;
   } 
 }
 .phoneNumberStyle{
   font-size: 16px;
-  color:white;
+  color:$color-style2;
 }
 ::v-deep .fa-2x{
   font-size:18px;

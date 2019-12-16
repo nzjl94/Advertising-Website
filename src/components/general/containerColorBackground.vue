@@ -1,22 +1,17 @@
 <template>
-  <div :class="grid" :style="[style]">
+  <div :class="grid+' '+classes" >
        <slot></slot>
   </div>
 </template>
 <script>
     export default {
         props: {
-            height: {type: String,default:"450px"},
-            extra: {type: String,default:"overflow-y:scroll;"},
-            background:{type: String,default:"red"},
             grid:{type: String,default:"col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"},
+            classes:{type:String,default:""}
         },
         data() {
             return {
-                style:{
-                    "background-color": this.background,
-                    "height": this.height
-                } 
+                 
             }
         }
     } 

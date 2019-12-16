@@ -1,10 +1,12 @@
+@import "../general/default.scss";
+
 @media (max-width:320px) {
     .mainContainer{
         margin:20px 15px 10px 15px;
     }
     ::v-deep .headerText{
         font-size:18px;
-        color:#C1272D;
+        color:$color-style1;
     }
     ::v-deep .bodyText{
         font-size:13px;
@@ -16,8 +18,9 @@
     }
     ::v-deep .headerText{
         font-size:18px;
-        color:#C1272D;
+        color:$color-style1;
     }
+    
     ::v-deep .bodyText{
         font-size:13px;
     }
@@ -28,7 +31,7 @@
     }
     ::v-deep .headerText{
         font-size:18px;
-        color:#C1272D;
+        color:$color-style1;
     }
     ::v-deep .bodyText{
         font-size:16px;
@@ -40,7 +43,7 @@
     }
     ::v-deep .headerText{
         font-size:24px;
-        color:#C1272D;
+        color:$color-style1;
     }
     ::v-deep .bodyText{
         font-size:16px;
@@ -52,15 +55,15 @@
     }
     ::v-deep .headerText{
         font-size:24px;
-        color:#C1272D;
+        color:$color-style1;
     }
     ::v-deep .bodyText{
         font-size:16px;
     }
 }
 ::v-deep .headerText{
-    font-family: "Segoe UI",sans-serif;
+    font-family: $font-family-style1;
 }
 ::v-deep .bodyText{
-    font-family: "Segoe UI",sans-serif;
+    font-family: $font-family-style1;
 }

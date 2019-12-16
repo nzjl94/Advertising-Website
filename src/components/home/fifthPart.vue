@@ -1,48 +1,44 @@
 <template>
-    <div class="row" >
-        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 my-auto" >
+    <div class="sliderMainContainer" >
+        <div class="slideTextContainer" >
           <h2 style="color:rgb(193, 39, 45);" class="mainText">OUR CLIENTS</h2>
-          <hr class="lineShow" />
         </div>
-        <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 imageContainer" >
-            <slick ref="slick" :options="slickOptions">
-                <div class="" style="display:inline;" width="100px" height="40px">
-                    <img src="../../assets/image/home/icons/3.png" alt="">
-                </div>
-                <div class="" style="display:inline;" width="100px" height="40px">
-                    <img src="../../assets/image/home/icons/2.png" alt="">
-                </div>
-                <div class="" style="display:inline;" width="100px" height="40px">
-                    <img src="../../assets/image/home/icons/3.png" alt="">
-                </div>
-                <div class="" style="display:inline;" width="100px" height="40px">
-                    <img src="../../assets/image/home/icons/4.png" alt="">
-                </div>
-                <div class="" style="display:inline;" width="100px" height="40px">
-                    <img src="../../assets/image/home/icons/3.png" alt="">
-                </div>
-                <div class="" style="display:inline;" width="100px" height="40px">
-                    <img src="../../assets/image/home/icons/2.png" alt="">
-                </div>
-                <div class="" style="display:inline;" width="100px" height="40px">
-                    <img src="../../assets/image/home/icons/3.png" alt="">
-                </div>
-                <div class="" style="display:inline;" width="100px" height="40px">
-                    <img src="../../assets/image/home/icons/4.png" alt="">
-                </div>
-                <div class="" style="display:inline;" width="100px" height="40px">
-                    <img src="../../assets/image/home/icons/3.png" alt="">
-                </div>
-                <div class="" style="display:inline;" width="100px" height="40px">
-                    <img src="../../assets/image/home/icons/2.png" alt="">
-                </div>
-                <div class="" style="display:inline;" width="100px" height="40px">
-                    <img src="../../assets/image/home/icons/3.png" alt="">
-                </div>
-                <div class="" style="display:inline;" width="100px" height="40px">
-                    <img src="../../assets/image/home/icons/4.png" alt="">
-                </div>
-            </slick>
+        <div class="slideImageContainer" >
+              <slick ref="slick" :options="slickOptions">
+                  <div class="imageSlide"  >
+                      <img src="../../assets/image/home/icons/3.png" alt="">
+                  </div>
+                  <div class="imageSlide"  >
+                      <img src="../../assets/image/home/icons/2.png" alt="">
+                  </div>
+                  <div class="imageSlide"  >
+                      <img src="../../assets/image/home/icons/3.png" alt="">
+                  </div>
+                  <div class="imageSlide"  >
+                      <img src="../../assets/image/home/icons/4.png" alt="">
+                  </div>
+                  <div class="imageSlide"  >
+                      <img src="../../assets/image/home/icons/3.png" alt="">
+                  </div>
+                  <div class="imageSlide"  >
+                      <img src="../../assets/image/home/icons/2.png" alt="">
+                  </div>
+                  <div class="imageSlide"  >
+                      <img src="../../assets/image/home/icons/3.png" alt="">
+                  </div>
+                  <div class="imageSlide"  >
+                      <img src="../../assets/image/home/icons/4.png" alt="">
+                  </div>
+                  <div class="imageSlide" >
+                      <img src="../../assets/image/home/icons/3.png" alt="">
+                  </div>
+                  <div class="imageSlide"  >
+                      <img src="../../assets/image/home/icons/2.png" alt="">
+                  </div>
+                  <div class="imageSlide"  >
+                      <img src="../../assets/image/home/icons/3.png" alt="">
+                  </div>
+              </slick>
         </div>
     </div>
 </template>

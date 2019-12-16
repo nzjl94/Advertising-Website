@@ -1,3 +1,5 @@
+@import "../general/default.scss";
+
 @media (max-width:320px) {
     .mainText{
         font-size:18;
@@ -59,10 +61,10 @@
 }
 .insClass { 
     text-decoration:none;
-    border-bottom: 3px solid #C1272D;
+    border-bottom: 3px solid $color-style1;
     padding-bottom: 5px;
 }
 .contentText{
     text-align:justify;
-    font-family: "Segoe UI",sans-serif;
+    font-family: $font-family-style1;
 }
