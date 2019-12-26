@@ -1,0 +1,22 @@
+@mixin headerLogo($id,$height,$width,$ml,$mr,$mt,$mb,$display:"",$float:"left") {
+    #{$id}{
+        @if str-length($display)>0 {
+            display: none;
+        }
+        @else {
+            display: block;
+            height:$height;
+            width:$width;
+            margin:{
+                left:$ml;
+                right:$mr;
+                top:$mt;
+                bottom:$mb;
+            }
+            @if $float=="right" {
+                float: right;
+            }
+        }
+    }
+   
+}

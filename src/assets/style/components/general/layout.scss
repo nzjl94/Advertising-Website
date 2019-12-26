@@ -1,0 +1,9 @@
+@mixin flexContainer($background:"") {
+    .mainContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .subContainers{
+        flex:50%;
+    }
+}

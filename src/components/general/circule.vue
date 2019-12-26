@@ -9,7 +9,7 @@
 <script>
 
 </script>
-<style scoped>
+<style lang="scss" scoped>
     .btn-circle.btn-xl {
         width: 70px;
         height: 70px;

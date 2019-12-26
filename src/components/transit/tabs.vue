@@ -385,7 +385,7 @@
         }
     }
 </script>
-<style scoped>
+<style scoped lang="scss">
     .card-header{
         padding:0px 5px 0px 5px;
         margin:0px;

@@ -11,7 +11,7 @@
         }
     }
 </script>
-<style scoped>
+<style scoped lang="scss">
     
     .logoStyle1{
         width: 35px;

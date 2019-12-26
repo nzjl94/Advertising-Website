@@ -4,7 +4,7 @@
       <span :class="text2.class" v-if="Object.keys(text2).length>0">{{text2.text}}</span>
       <div :class="icons.classContainer"  v-if="icons.show" >
         <span :class="icons.classItem" v-for="(item, index) in icons_array" :key="index">
-          <Icons :iconName="item" iconType="fab" iconClass="circle-icon logoIcons fa-1x"/>
+          <Icons :iconName="item" iconType="fab" iconClass="circle-icon logoIcons fa-1x whiteStyle"/>
         </span>
       </div>
     </div>

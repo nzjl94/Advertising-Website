@@ -1,3 +1,5 @@
+@import "../general/default.scss";
+
 $generalStyle: (
     ".containerClasses": (
         xs:(
@@ -218,15 +220,25 @@ $generalStyle: (
 }
 
 .blackSubText{
-    color:#FFFFFF;
-    font-family: sans-serif;
+    color:$color-style2;
+    font-family: $font-family-style1;
 }
 .blackMainText{
-    color:#FFFFFF;
-    font-family:sans-serif;
+    color:$color-style2;
+    font-family:$font-family-style1;
 }
 .blackButton{
     border-radius:10px;
     display:inline;
-    font-family: sans-serif;
+    font-family: $font-family-style1;
+}
+
+::v-deep .circle-icon {
+    border-radius: 50%;
+    text-align: center; 
+    vertical-align: middle;  
+}
+::v-deep .logoIconsWhite{
+    border-color: $color-style2;
+    color:$color-style2;
 }

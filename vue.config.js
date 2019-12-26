@@ -22,12 +22,6 @@ module.exports = {
     },
     css: {
       loaderOptions: {
-        sass: {
-          //data: `$color: red;` you can also use that
-          data: `
-            @import "@/assets/style/global/_variables.scss";
-          `
-        }
       }
     }
   }

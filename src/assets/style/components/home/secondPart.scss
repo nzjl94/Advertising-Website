@@ -1,3 +1,5 @@
+@import "../general/icons.scss";
+
 @media (max-width:320px) {
     .firstColumn{
         padding:15px 20px 5px 20px;
@@ -211,22 +213,10 @@
         display: inline;
     }
 }
-::v-deep .logoIcons{
-    width: 16px;
-    height: 16px;
-    line-height: 16px;
-    border: solid 1px;
-}
-::v-deep .fa-1x{
-    font-size:9px;
-}
-::v-deep .circle-icon {
-    border-radius: 50%;
-    text-align: center; 
-    vertical-align: middle; 
-    border-color: white;
-    color:white; 
-}
+@include iconScreen(16px,1px,white,9px,0px);
+@include iconGeneral(50%,center,middle);
+
+
 .video-container {
     position: relative;
     top: 0;

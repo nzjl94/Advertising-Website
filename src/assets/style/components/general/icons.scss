@@ -1,0 +1,29 @@
+@import "./default.scss";
+
+@mixin iconScreen($size :50px,$border_width:3px,$color:white,$font-size:32px,$mx:45px) {
+    ::v-deep .logoIcons{
+        width:$size;
+        height: $size;
+        line-height:$size;
+        border: solid $border_width;
+        margin:0px $mx;
+    }
+    ::v-deep .blackStyle{
+        border-color: $color-style5;
+        color:$color-style5;
+    }
+    ::v-deep .whiteStyle{
+        border-color: $color-style2;
+        color:$color-style2;
+    }
+    ::v-deep .fa-1x{
+        font-size:$font-size;
+    }
+} 
+@mixin iconGeneral($border-radius :50%,$text-align:center,$vertical-align:middle,$color:"") {
+    ::v-deep .circle-icon {
+        border-radius:$border-radius;
+        text-align: $text-align; 
+        vertical-align: $vertical-align;  
+    }
+} 

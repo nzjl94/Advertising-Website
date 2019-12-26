@@ -95,7 +95,7 @@
       }
     }
 </script>
-<style scoped>  
+<style scoped lang="scss">  
   .invalid input{
     border: 2px solid rgba(102, 8, 8, 0.781);
     background-color: #f1652e;

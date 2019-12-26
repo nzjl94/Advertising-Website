@@ -7,9 +7,9 @@ import Vuelidate from 'vuelidate'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-import "@/assets/style/global.css"
 
-axios.defaults.baseURL="https://citylight-89ab0.firebaseio.com";
+//change the base url to the backend lind I use the firebase for test purpose
+axios.defaults.baseURL="";
 axios.defaults.headers.common["Authorization"]="testVersion App";
 axios.defaults.headers.get["Accepts"]="application/json";
 

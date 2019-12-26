@@ -1,148 +1,63 @@
+@import "../general/default.scss";
+@import "../general/layout.scss";
+@import "../general/generalMix.scss";
+@import "../general/icons.scss";
 @media (max-width:320px) {
-    .logoImage{
-        height: 40px;
-        width: 100px;
-        margin-left:15px;
-        margin-top:10px;
-        margin-bottom:5px;
-    }
-    .logoImageContainer{
+    @include headerLogo(".leftLogoImage",40px,100px,15px,0px,10px,5px);
+    @include headerLogo(".rightLogoImage",40px,100px,15px,0px,10px,5px,"no","right");
+    .subContainerOwn{
         margin-left:25%;
     }
-    .allIconsContainer{
+    .subContainerTwo{
         display:none;
     }
     .mainContainer{
-        height:40px;
+        height:60px;
     }
-
 }
 @media (min-width:320px) {
-    .logoImage{
-        height: 40px;
-        width: 145px;
-        margin-left:15px;
-        margin-top:10px;
-        margin-bottom:5px;
+    @include headerLogo(".leftLogoImage",40px,145px,15px,0px,10px,5px);
+    @include headerLogo(".rightLogoImage",40px,145px,15px,0px,10px,5px,"no","right");
+    @include iconScreen(24px,2px,$color-style3,14px,10px);
+    .iconContainer{
+        display: block;
+        margin:24px 12px;
     }
-    .logoMainText{
-        font-size: 12px;    
+}
+@media (min-width:768px) {
+    @include headerLogo(".leftLogoImage",60px,225px,24px,0px,10px,10px);
+    @include headerLogo(".rightLogoImage",60px,217px,24px,0px,10px,5px,"no","right");
+    @include iconScreen(24px,2px,$color-style3,14px,10px);
+    .mainContainer{
+        height:80px;
     }
-    ::v-deep .logoIcons{
-        width: 18px;
-        height: 18px;
-        line-height: 18px;
-        border: solid 1px black;
-        color:black;
+    .subContainerTwo{
+        padding-right: 24px;
     }
-    ::v-deep .fa-1x{
-        font-size:11px;
+    .iconContainer{
+        display: block;
+        margin:24px;
+    }
+}
+@media (min-width:1024px) {
+    @include headerLogo(".leftLogoImage",90px,326px,42px,0px,20px,20px);
+    @include headerLogo(".rightLogoImage",90px,195px,42px,0px,20px,20px,"","right");
+    .iconContainer{
+        display: none;
     }
     .mainContainer{
         height:130px;
     }
-    .iconSpan{
-        margin-right: 2px;
-    }
-}
-@media (min-width:768px) {
-    .logoImage{
-        height: 60px;
-        width: 217px;
-        margin-left:24px;
-        margin-top:5px;
-        margin-bottom:5px;
-    }
-    .logoMainText{
-        font-size: 20px;    
-    }
-    .iconSpan{
-        margin-right: 6px;
-    }
-    ::v-deep .logoIcons{
-        width: 26px;
-        height: 26px;
-        line-height: 26px;
-        border: solid 2px black;
-        color:black;
-    }
-    ::v-deep .fa-1x{
-        font-size:14px;
-    }
-    .allIconsContainer{
-        padding-right: 24px;
-    }
-}
-@media (min-width:1024px) {
-    .logoImage{
-        height: 90px;
-        width: 326px;
-        margin-left:42px;
-        margin-top:20px;
-        margin-bottom:20px;
-    }
-    .logoMainText{
-        font-size: 28px;    
-    }
-    ::v-deep .logoIcons{
-        width: 35px;
-        height: 35px;
-        line-height: 35px;
-        border: solid 2px black;
-        color:black;
-    }
-    ::v-deep .fa-1x{
-        font-size:22px;
-    }
-    .iconSpan{
-        margin-right: 9px;
-    }
-    .allIconsContainer{
+    .subContainerTwo{
         padding-right: 42px;
     }
 }
 @media (min-width:1440px) {
-    .logoImage{
-        height: 90px;
-        width: 326px;
-        margin-left:60px;
-        margin-top:20px;
-        margin-bottom:20px;  
-    }
-    .logoMainText{
-        font-size: 28px;  
-    }
-    .iconSpan{
-        padding: 9px;
-    }
-    ::v-deep .logoIcons{
-        width: 35px;
-        height: 35px;
-        line-height: 35px;
-        border: solid 2px;
-    }
-    ::v-deep .fa-1x{
-        font-size:22px;
-    }
-    .allIconsContainer{
+    @include headerLogo(".leftLogoImage",90px,326px,60px,0px,20px,20px);
+    @include headerLogo(".rightLogoImage",90px,195px,60px,0px,20px,20px,"","right");
+    .subContainerTwo{
         padding-right: 60px;
     }
 }
-
-::v-deep .circle-icon {
-    border-radius: 50%;
-    text-align: center; 
-    vertical-align: middle;  
-}
-::v-deep .logoIconsBlack{
-    border-color: black;
-    color:black;
-}
-::v-deep .logoIconsWhite{
-    border-color: white;
-    color:white;
-}
-.headerSpan{
-    font-family: Montserrat,SF Pro Display;
-    font-weight:200;
-}
+@include iconGeneral(50%,center,middle);
+@include flexContainer();

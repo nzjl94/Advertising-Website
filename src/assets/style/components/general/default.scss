@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 $color-style1:#e04343;
-$color-style2:white;
+$color-style2:white!important;
+$color-style3:rgba(255, 255, 255, 0.9);
+$color-style4:#eee;
+$color-style5:black!important;
+$color-style6:rgba(0,0,0,0.8);
+$color-style7:linear-gradient($color-style6,$color-style6);
+$color-style8:#BDBDBD;
+$color-style9:linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5));
 
-$font-family-style1:"Open Sans"
+
+$font-family-style1:"Open Sans";
+
