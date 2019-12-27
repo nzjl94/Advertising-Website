@@ -7,3 +7,15 @@
         flex:50%;
     }
 }
+@mixin flexContainer2($id) {
+    #{$id}{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@mixin flexSubContainer2($id,$size) {
+    #{$id}{
+        flex:$size;
+        text-align: center;
+    }
+}

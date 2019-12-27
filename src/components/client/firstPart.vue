@@ -1,19 +1,31 @@
 <template>
     <div class="row">
         <image-background 
-          imgUrL="client/1.png"
+          :key=getClintHeaderData.link
+          :imgUrL=getClintHeaderData.link
           opacity="1"
-          :mHeader='{"text":"Our Clients","classes":"text-white text-center mainText"} '
-          :sHeader='{"text":"We do Best, We made them Happy!", "classes":"text-white text-center subText"}'
+          :mHeader='{"text":getClintHeaderData.title,"classes":"text-white text-center mainText"} '
+          :sHeader='{"text":getClintHeaderData.content, "classes":"text-white text-center subText"}'
         ></image-background>
     </div>
     
 </template>
 <script>
+  import {mapGetters} from 'vuex'
   import imageBackground  from '../general/imageBackground';
   export default {
+    created() {
+    },
+    methods: {
+      
+    },
     components:{
       imageBackground,
+    },
+    computed:{
+        ...mapGetters([
+          'getClintHeaderData'
+        ])
     }
   }
 </script>

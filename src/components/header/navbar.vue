@@ -24,49 +24,49 @@
             <b-dropdown-item class="overflow">
               BillBoard
               <b-list-group class="absolute">
-                <b-list-group-item>Erbil</b-list-group-item>
-                <b-list-group-item>Sulaimanyah</b-list-group-item>
-                <b-list-group-item>Kirkuk</b-list-group-item>
+                <b-list-group-item to="/outdoor">Erbil</b-list-group-item>
+                <b-list-group-item to="/outdoor">Sulaimanyah</b-list-group-item>
+                <b-list-group-item to="/outdoor">Kirkuk</b-list-group-item>
               </b-list-group>
             </b-dropdown-item>
             <b-dropdown-item class="overflow">
               Pissa
               <b-list-group class="absolute">
-                <b-list-group-item>Erbil</b-list-group-item>
-                <b-list-group-item>Sulaimanyah</b-list-group-item>
-                <b-list-group-item>Kirkuk</b-list-group-item>
+                <b-list-group-item to="/outdoor">Erbil</b-list-group-item>
+                <b-list-group-item to="/outdoor">Sulaimanyah</b-list-group-item>
+                <b-list-group-item to="/outdoor">Kirkuk</b-list-group-item>
               </b-list-group>
             </b-dropdown-item>
             <b-dropdown-item class="overflow">
               Mega Light
               <b-list-group class="absolute">
-                <b-list-group-item>Erbil</b-list-group-item>
-                <b-list-group-item>Sulaimanyah</b-list-group-item>
-                <b-list-group-item>Kirkuk</b-list-group-item>
+                <b-list-group-item to="/outdoor">Erbil</b-list-group-item>
+                <b-list-group-item to="/outdoor">Sulaimanyah</b-list-group-item>
+                <b-list-group-item to="/outdoor">Kirkuk</b-list-group-item>
               </b-list-group>
             </b-dropdown-item>
             <b-dropdown-item class="overflow">
               Tower
               <b-list-group class="absolute">
-                <b-list-group-item>Erbil</b-list-group-item>
-                <b-list-group-item>Sulaimanyah</b-list-group-item>
-                <b-list-group-item>Kirkuk</b-list-group-item>
+                <b-list-group-item to="/outdoor">Erbil</b-list-group-item>
+                <b-list-group-item to="/outdoor">Sulaimanyah</b-list-group-item>
+                <b-list-group-item to="/outdoor">Kirkuk</b-list-group-item>
               </b-list-group>
             </b-dropdown-item>
             <b-dropdown-item class="overflow">
               Cylinder
               <b-list-group class="absolute">
-                <b-list-group-item>Erbil</b-list-group-item>
-                <b-list-group-item>Sulaimanyah</b-list-group-item>
-                <b-list-group-item>Kirkuk</b-list-group-item>
+                <b-list-group-item to="/outdoor">Erbil</b-list-group-item>
+                <b-list-group-item to="/outdoor">Sulaimanyah</b-list-group-item>
+                <b-list-group-item to="/outdoor">Kirkuk</b-list-group-item>
               </b-list-group>
             </b-dropdown-item>
             <b-dropdown-item class="overflow">
               Water Tank
               <b-list-group class="absolute">
-                <b-list-group-item>Erbil</b-list-group-item>
-                <b-list-group-item>Sulaimanyah</b-list-group-item>
-                <b-list-group-item>Kirkuk</b-list-group-item>
+                <b-list-group-item to="/outdoor">Erbil</b-list-group-item>
+                <b-list-group-item to="/outdoor">Sulaimanyah</b-list-group-item>
+                <b-list-group-item to="/outdoor">Kirkuk</b-list-group-item>
               </b-list-group>
             </b-dropdown-item>
           </b-nav-item-dropdown>

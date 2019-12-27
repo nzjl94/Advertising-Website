@@ -242,3 +242,7 @@ $generalStyle: (
     border-color: $color-style2;
     color:$color-style2;
 }
+
+::v-deep .fa-3x{
+    font-size:36px;
+}

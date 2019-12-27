@@ -19,11 +19,11 @@
               <div class="h-25">
                 <h1 class="text-white text-center pt-5 header_style1" >{{activeData.text1}}</h1>
                 <h2 class="text-white text-center pt-2 header_style2" style="font-weight:bold;">Your <span style="color:rgb(193, 39, 45);">Brand</span></h2>
-                <div style="display:inline;" v-on:click="leftButton">
-                  <Icons iconName="angle-left"  iconType="fa" iconClass="circle-icon logoIcons fa-4x logoIconsWhite" />
+                <div style="display:inline;margin-left:25px;" v-on:click="leftButton">
+                  <Icons iconName="angle-left"  iconType="fa" iconClass="circle-icon logoIcons fa-3x logoIconsWhite" />
                 </div>
-                <div style="display:inline;float:right;" v-on:click="rightButton">
-                  <Icons iconName="angle-right" iconType="fa" iconClass="circle-icon logoIcons fa-4x logoIconsWhite" />
+                <div style="display:inline;float:right;margin-right:25px;" v-on:click="rightButton">
+                  <Icons iconName="angle-right" iconType="fa" iconClass="circle-icon logoIcons fa-3x logoIconsWhite" />
                 </div>
               </div>
               <div class="flexContainer">
